@@ -79,23 +79,23 @@ export default ({
   const defaultTestimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+        "https://source.unsplash.com/900x400/?coding,technology&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+        "https://images.unsplash.com/photo-1600010995623-fc0e5487fa96?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "We have learned the art of interacting with people as professionals. Inevitably there were ups and downs along the way, but we learned how to overcome them as a team.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc."
+        "I have learned the art of interacting with people as professionals. Inevitably there were ups and downs along the way, but we learned how to overcome them as a team.",
+      customerName: "Anirudha M Agrawal",
+      customerTitle: "Mentor, CSoC"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        "https://source.unsplash.com/900x400/?coding,web&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+        "https://images.unsplash.com/photo-1600010912624-5d5ae1de482c?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
       quote:
         "Our experience as a CodeChef College Chapter has been amazing, unforgettable, and informative. We got exposure to managing events, holding sessions, and mentoring juniors.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC"
+      customerName: "GaganPreet",
+      customerTitle: "Mentee, CSoC"
     }
   ];
 
