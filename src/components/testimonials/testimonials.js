@@ -81,7 +81,7 @@ export default ({
       imageSrc:
         "https://source.unsplash.com/900x400/?coding,technology&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
-        "https://images.unsplash.com/photo-1600010995623-fc0e5487fa96?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+        "https://images.unsplash.com/photo-1600010912624-5d5ae1de482c?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
       quote:
         "I have learned the art of interacting with people as professionals. Inevitably there were ups and downs along the way, but I learned how to overcome them as a team.",
       customerName: "GaganPreet",
@@ -91,7 +91,7 @@ export default ({
       imageSrc:
         "https://source.unsplash.com/900x400/?coding,web&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
-        "https://images.unsplash.com/photo-1600010912624-5d5ae1de482c?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+        "https://images.unsplash.com/photo-1600010995623-fc0e5487fa96?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
         "My experience as a CodeChef College Chapter has been amazing, unforgettable, and informative. I got exposure to managing events, holding sessions, and mentoring juniors.",
       customerName: "Anirudha M Agrawal",
