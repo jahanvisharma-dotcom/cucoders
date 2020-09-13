@@ -70,13 +70,14 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    * changing the defaultLinks variable below below.
    * If you manipulate links here, all the styling on the links is already done for you. If you pass links yourself though, you are responsible for styling the links or use the helper styled components that are defined here (NavLink)
    */
+   //present
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/Home">Home</NavLink>
       <NavLink href="/About">About</NavLink>
       <NavLink href="/team">Our Team</NavLink>
       <NavLink href="/comingsoon">Upcoming</NavLink>
-      <NavLink href="/present">Present</NavLink>
+      <NavLink href="/comingsoon">Present</NavLink>
       <NavLink href="/comingsoon">Past</NavLink>
       <NavLink href="/blog">Blog</NavLink>
       <NavLink href="/contact">Contact Us</NavLink>
