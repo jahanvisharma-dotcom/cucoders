@@ -10,6 +10,7 @@ import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
 import {SectionDescription} from "components/misc/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
+import { ReactComponent as InstagramIcon} from "images/instagram.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 import logo from "../images/logo.png";
@@ -55,15 +56,15 @@ export default ({
       name: "Ankit Raj",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "https://www.instagram.com/ank1t_shr1vastava9/",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/ank1traj/",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/ank1traj",
           icon: GithubIcon,
         },
       ],
@@ -74,15 +75,15 @@ export default ({
       name: "Anustup Mukherjee",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -93,15 +94,15 @@ export default ({
       name: "Itashi Pathria",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -112,15 +113,15 @@ export default ({
       name: "Smriti Srivastava",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -131,15 +132,15 @@ export default ({
       name: "Aditya Kumar",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -150,15 +151,15 @@ export default ({
       name: "Parul Manhas",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -169,15 +170,15 @@ export default ({
       name: "Ketan",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/ketan-sharma-508087193",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/iamketan56",
           icon: GithubIcon,
         },
       ],
@@ -188,15 +189,15 @@ export default ({
       name: "Sachin Soni",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -207,15 +208,15 @@ export default ({
       name: "Kartik Malik",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/kartik-malik-76263117a",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/Kartikmalik271",
           icon: GithubIcon,
         },
       ],
@@ -226,15 +227,15 @@ export default ({
       name: "Harshdeep",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/harshdeep-77/",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/Harshderp",
           icon: GithubIcon,
         },
       ],
@@ -245,15 +246,15 @@ export default ({
       name: "Kartikey",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/kartikey-ahlawat-a63519172/",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/kartikeyahl",
           icon: GithubIcon,
         },
       ],
@@ -264,15 +265,15 @@ export default ({
       name: "Satakshi Shrivastava",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/satakshi-shrivastava-51040b1aa",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/satakshi25",
           icon: GithubIcon,
         },
       ],
@@ -283,15 +284,15 @@ export default ({
       name: "Gunjan Paneri",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/gunjan-paneri-4281201a1/",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/iamgunjan",
           icon: GithubIcon,
         },
       ],
@@ -302,15 +303,15 @@ export default ({
       name: "Manish",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/manish1004/",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/gods-mack",
           icon: GithubIcon,
         },
       ],
@@ -321,15 +322,15 @@ export default ({
       name: "Pranai Yadav",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "#",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "#",
           icon: GithubIcon,
         },
       ],
@@ -340,15 +341,15 @@ export default ({
       name: "Varun",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "#",
+          icon: InstagramIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/varunkmr19",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com",
+          url: "https://github.com/varunkmr19",
           icon: GithubIcon,
         },
       ],

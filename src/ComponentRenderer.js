@@ -3,8 +3,6 @@ import { useParams } from 'react-router-dom';
 import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
 import AboutUsPage from "pages/AboutUs.js";
-import AboutUsPageImageSrc from "images/demo/AboutUsPage.jpeg";
-import ContactUsPageImageSrc from "images/demo/ContactUsPage.jpeg";
 import IllustrationAndVideoHero from "components/hero/TwoColumnWithVideo.js";
 
 import TwoColWithButtonFeatures from "components/features/TwoColWithButton.js";
@@ -39,7 +37,6 @@ export const components = {
     AboutUsPage: {
       component: AboutUsPage,
       url: `/components/innerPages/AboutUsPage`,
-      imageSrc: AboutUsPageImageSrc,
     },
   },
 
