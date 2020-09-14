@@ -3,9 +3,9 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
 import logo from "../../images/logo.png";
-import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { ReactComponent as InstagramIcon } from "../../images/instagram.svg";
+import { ReactComponent as GithubIcon } from "../../images/github-icon.svg";
+import { ReactComponent as LinkedinIcon } from "../../images/linkedin-icon.svg";
 
 
 const Container = tw(ContainerBase)`bg-gray-200 -mx-8 -mb-8`
@@ -22,7 +22,7 @@ const Link = tw.a`border-b-2 border-transparent hocus:text-primary-500 hocus:bor
 
 const SocialLinksContainer = tw.div`mt-10`;
 const SocialLink = styled.a`
-  ${tw`cursor-pointer inline-block p-2 rounded-full bg-gray-700 text-gray-100 hover:bg-gray-900 transition duration-300 mr-4`}
+  ${tw`cursor-pointer inline-block p-2 rounded-full bg-orange-300 text-gray-100 hover:bg-primary-500 transition duration-300 mr-4`}
   svg {
     ${tw`w-4 h-4`}
   }
@@ -47,14 +47,14 @@ export default () => {
             <Link href="/Team">Team</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
-              <FacebookIcon />
+            <SocialLink href="https://www.instagram.com/cu.coders">
+              <InstagramIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
+            <SocialLink href="https://github.com/CSoC-2020">
+              <GithubIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
+            <SocialLink href="https://www.linkedin.com/company/code-chef-cu-coders">
+              <LinkedinIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
