@@ -112,7 +112,7 @@ export default ({
       name: "Smriti Srivastava",
       links: [
         {
-          url: "#",
+          url: "https://www.instagram.com/_tanya_insane_/",
           icon: InstagramIcon,
         },
         {
@@ -221,6 +221,25 @@ export default ({
       ],
     },
     {
+      imageSrc: "https://images.unsplash.com/photo-1600106975020-4d5d9fa38e08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
+      position: "Front-End Developer",
+      name: "Ayushi Chauhan",
+      links: [
+        {
+          url: "https://www.instagram.com/ayuu_shiiii/",
+          icon: InstagramIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/ayushi-chauhan-87a45a1b0/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com/Ayushi2811",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: "https://images.unsplash.com/photo-1599999282595-9ff5e92d1f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "AI/ML Developer",
       name: "Harshdeep",
@@ -239,6 +258,7 @@ export default ({
         },
       ],
     },
+    {
     {
       imageSrc: "https://images.unsplash.com/photo-1600000607704-0be55573d954?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "AI/ML & Back-End Developer",
