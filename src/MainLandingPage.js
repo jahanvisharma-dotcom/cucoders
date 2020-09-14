@@ -44,7 +44,7 @@ export default () => {
             We love those whom we serve. It's through vulnerability that human beings create connections. The more vulnerable we can be with one another, the more that we'll trust one another and the more we'll be able to collaborate effectively.
             <br />
             <br />
-            We don't want to push our ideas on to customers, we simply want to make what they want.
+            We don't want to push our ideas on to members, we simply want to make what they want.
           </Description>
         }
         buttonRounded={false}
