@@ -259,7 +259,6 @@ export default ({
       ],
     },
     {
-    {
       imageSrc: "https://images.unsplash.com/photo-1600000607704-0be55573d954?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "AI/ML & Back-End Developer",
       name: "Kartikey",
