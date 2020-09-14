@@ -60,9 +60,6 @@ export default ({
               <Input type="text" name="name" placeholder="Full Name" />
               <Input type="text" name="subject" placeholder="Subject" />
               <Textarea name="message" placeholder="Your Message Here" />
-              <label>Resume
-              <Input type="file" name="resume" />
-              </label>
               <SubmitButton type="submit">{submitButtonText}</SubmitButton>
             </Form>
           </TextContent>
