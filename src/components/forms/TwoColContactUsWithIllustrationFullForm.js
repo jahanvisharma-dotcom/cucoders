@@ -56,7 +56,7 @@ export default ({
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
             <Form action={formAction} method={formMethod}>
-              <Input type="email" name="email" name="_reply_to" placeholder="Your Email Address" />
+              <Input type="email" name="email" placeholder="Your Email Address" />
               <Input type="text" name="name" placeholder="Full Name" />
               <Input type="text" name="subject" placeholder="Subject" />
               <Textarea name="message" placeholder="Your Message Here" />

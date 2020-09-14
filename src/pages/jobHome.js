@@ -2,17 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import HeaderBase, { NavLinks, NavLink, PrimaryLink } from "components/headers/light.js";
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { Container, ContentWithVerticalPadding } from "components/misc/Layouts.js";
 import { ReactComponent as CheckboxIcon } from "feather-icons/dist/icons/check-circle.svg";
 import { ReactComponent as QuotesLeftIconBase } from "images/quotes-l.svg"
 import { ReactComponent as SvgDecoratorBlob1 } from "images/dot-pattern.svg"
-import JobHome from "components/features/aboutJob.js";
 import Company from "components/job/company.js";
-import Switcher from "components/job/jobSwitcher.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 import Coming from "components/job/comingsoon.js";
@@ -22,7 +18,6 @@ const Column = tw.div``;
 const TextColumn = tw(Column)`mr-auto lg:mr-0 max-w-lg lg:max-w-xl xl:max-w-2xl`;
 const Heading = tw(SectionHeading)`text-left text-primary-900 leading-snug xl:text-6xl`;
 const Description = tw(SectionDescription)`mt-4 lg:text-base text-gray-700 max-w-lg`;
-const PrimaryButton = tw(PrimaryButtonBase)`mt-8 inline-block w-56 tracking-wide text-center py-5`;
 const FeatureList = tw.ul`mt-12 leading-loose`;
 const Feature = tw.li`flex items-center`;
 const FeatureIcon = tw(CheckboxIcon)`w-5 h-5 text-primary-500`;

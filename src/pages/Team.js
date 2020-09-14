@@ -13,7 +13,6 @@ import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as InstagramIcon} from "images/instagram.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
-import logo from "../images/logo.png";
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
 const Subheading = tw(SubheadingBase)`text-center mb-3`
@@ -89,7 +88,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1599998332821-89a29ad8ba6f?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1600097873961-12154219b396?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
       position: "Marketing Head",
       name: "Itashi Pathria",
       links: [
@@ -98,11 +97,11 @@ export default ({
           icon: InstagramIcon,
         },
         {
-          url: "#",
+          url: "https://www.linkedin.com/in/itashi-pathria-9060761b2/",
           icon: LinkedinIcon,
         },
         {
-          url: "#",
+          url: "https://github.com/Itashi1903",
           icon: GithubIcon,
         },
       ],
@@ -117,11 +116,11 @@ export default ({
           icon: InstagramIcon,
         },
         {
-          url: "#",
+          url: "https://www.linkedin.com/in/smriti-srivastava-b3a25b168/",
           icon: LinkedinIcon,
         },
         {
-          url: "#",
+          url: "https://github.com/smritisrivastava824",
           icon: GithubIcon,
         },
       ],
@@ -136,11 +135,11 @@ export default ({
           icon: InstagramIcon,
         },
         {
-          url: "#",
+          url: "https://www.linkedin.com/in/aditya-kumar-87886119b",
           icon: LinkedinIcon,
         },
         {
-          url: "#",
+          url: "https://www.github.com/Adi3011",
           icon: GithubIcon,
         },
       ],
@@ -189,15 +188,15 @@ export default ({
       name: "Sachin Soni",
       links: [
         {
-          url: "#",
+          url: "https://www.instagram.com/sin.uuuu/",
           icon: InstagramIcon,
         },
         {
-          url: "#",
+          url: "https://www.linkedin.com/in/sachin-soni-49447b193",
           icon: LinkedinIcon,
         },
         {
-          url: "#",
+          url: "https://github.com/sinu93065",
           icon: GithubIcon,
         },
       ],
@@ -227,7 +226,7 @@ export default ({
       name: "Harshdeep",
       links: [
         {
-          url: "#",
+          url: "https://www.instagram.com/king_of_social_media/",
           icon: InstagramIcon,
         },
         {
@@ -284,7 +283,7 @@ export default ({
       name: "Gunjan Paneri",
       links: [
         {
-          url: "#",
+          url: "https://www.instagram.com/_.click_it_all._/",
           icon: InstagramIcon,
         },
         {
@@ -298,7 +297,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1600097868711-946b33b7c9de?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Problem Setter",
       name: "Manish",
       links: [
@@ -336,13 +335,13 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1600097863410-453660a39f94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Back-End Developer",
       name: "Varun",
       links: [
         {
-          url: "#",
-          icon: InstagramIcon,
+          url: "https://www.twitter.com/varunkmr19",
+          icon: TwitterIcon,
         },
         {
           url: "https://www.linkedin.com/in/varunkmr19",

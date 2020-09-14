@@ -3,9 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 //eslint-disable-next-line
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import { SectionDescription } from "components/misc/Typography.js";
-
+import { SectionHeading as SubheadingBase } from "components/misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
 const Container = tw.div`relative`;
@@ -13,9 +11,7 @@ const Container = tw.div`relative`;
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24`}
 `;
-const Subheading = tw(SubheadingBase)`mb-4`;
-const Heading = tw(SectionHeading)`w-full`;
-const Description = tw(SectionDescription)`w-full text-center`;
+const Heading = tw(SubheadingBase)`w-full`;
 
 const VerticalSpacer = tw.div`mt-10 w-full`
 
@@ -38,10 +34,6 @@ const Card = styled.div`
 
   .title {
     ${tw`mt-4 tracking-wide font-mono-0 text-2xl leading-none`}
-  }
-
-  .description {
-    ${tw`mt-1 sm:mt-4 font-medium text-secondary-100 leading-loose`}
   }
 `;
 
