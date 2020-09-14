@@ -76,9 +76,9 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/Home">Home</NavLink>
       <NavLink href="/About">About</NavLink>
       <NavLink href="/team">Our Team</NavLink>
-      <NavLink href="/comingsoon">Upcoming</NavLink>
-      <NavLink href="/comingsoon">Present</NavLink>
-      <NavLink href="/comingsoon">Past</NavLink>
+      <NavLink href="/comingsoon">Upcoming Events</NavLink>
+      <NavLink href="/comingsoon">Ongoing Events</NavLink>
+      <NavLink href="/comingsoon">Past Events</NavLink>
       <NavLink href="comingsoon">Blog</NavLink>
       <NavLink href="/contact">Contact Us</NavLink>
     </NavLinks>
@@ -89,7 +89,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   const defaultLogoLink = (
     <LogoLink href="/">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="CU-Coders" />
       CU-Coders
     </LogoLink>
   );
