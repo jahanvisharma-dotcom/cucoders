@@ -54,7 +54,7 @@ export default ({
         "Yes, we have two membership in CU-Coders, One is community membership & second is official membership."
     },
     {
-      question: "What are the criteria of official membership & official memb ?",
+      question: "What are the criteria of community membership & official membership?",
       answer:
         "For community membership there is no criteria. But for official membership first criteria is resume and then according to candidate domain selection procedure can vary."
     },
