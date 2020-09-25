@@ -3,15 +3,15 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import Features from "components/features/ThreeColSimple.js";
+import Features from "components/features/features.js";
 import MainFeature from "components/features/TwoColWithButton.js";
-import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
+import MainFeature2 from "components/features/featuresWithStats.js";
 import Testimonial from "components/testimonials/testimonials.js";
 import Footer from "components/footers/footers.js";
 import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
-import SingleColFAQS from "components/faqs/SingleCol.js";
+import FAQs from "components/faqs/faq.js";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -116,7 +116,7 @@ export default () => {
         subheading=""
         heading={<>Members <HighlightedText>Love Us.</HighlightedText></>}
       />
-      <SingleColFAQS />
+      <FAQs />
       <Footer />
     </AnimationRevealPage>
   );

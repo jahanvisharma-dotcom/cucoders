@@ -11,8 +11,8 @@ import { ReactComponent as SvgDecoratorBlob1 } from "images/dot-pattern.svg"
 import Company from "components/job/company.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
-import Coming from "components/job/comingsoon.js";
-
+import Footer from "components/footers/footers.js";
+import JobList from "components/job/jobSwitcher.js";
 const Row = tw.div`flex flex-col lg:flex-row justify-between items-center lg:pt-16 max-w-screen-2xl mx-auto sm:px-8`;
 const Column = tw.div``;
 const TextColumn = tw(Column)`mr-auto lg:mr-0 max-w-lg lg:max-w-xl xl:max-w-2xl`;
@@ -88,7 +88,8 @@ export default ({
         </ContentWithVerticalPadding>
       </Container>
       <Company />
-      <Coming />
+      <JobList />
+      <Footer />
       </AnimationRevealPage>
     </>
   );

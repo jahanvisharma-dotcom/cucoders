@@ -4,31 +4,35 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
 import AboutUsPage from "pages/AboutUs.js";
 import IllustrationAndVideoHero from "components/hero/TwoColumnWithVideo.js";
+import Back from "pages/back.js";
 
 import TwoColWithButtonFeatures from "components/features/TwoColWithButton.js";
-import ThreeColSimpleFeatures from "components/features/ThreeColSimple.js";
-import WithStatsAndImage2Features from "components/features/TwoColSingleFeatureWithStats2.js";
+import Features from "components/features/features.js";
+import WithStatsAndImage2Features from "components/features/featuresWithStats.js";
 import Upcoming from "components/features/upcoming.js";
 import AboutJob from "components/features/aboutJob.js";
 
 import Company from "components/job/company.js";
 import JobSwitcher from "components/job/jobSwitcher.js";
-import FrontEnd from "components/job/frontEnd.js";
 import ComingJob from "components/job/comingsoon.js";
-import Team from "components/cards/team.js"
 
-import Present from "components/blogs/present.js";
 import Blog from "components/blogs/blog.js";
 
 import testimonials from "components/testimonials/testimonials.js";
 
-import SingleColFAQS from "components/faqs/SingleCol.js";
+import FAQs from "components/faqs/faq.js";
 
-import TwoColContactUsFullForm from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
+import TwoColContactUsFullForm from "components/forms/contact.js";
 
 import ComingSoon from "components/cta/comingsoon.js";
 
 import Footer from "components/footers/footers.js";
+
+
+import Past from "components/events/past.js";
+import Present from "components/events/present.js";
+
+import Apply from "components/job/apply.js";
 
 
 export const components = {
@@ -37,6 +41,10 @@ export const components = {
     AboutUsPage: {
       component: AboutUsPage,
       url: `/components/innerPages/AboutUsPage`,
+    },
+    Back: {
+      component: Back,
+      url: `/components/innerPages/back`,
     },
   },
 
@@ -59,10 +67,10 @@ export const components = {
           component: TwoColWithButtonFeatures,
           url: "/components/blocks/Features/TwoColWithButton",
         },
-        ThreeColSimple: {
+        Features: {
           name: "Three Column Simple",
-          component: ThreeColSimpleFeatures,
-          url: "/components/blocks/Features/ThreeColSimple",
+          component: Features,
+          url: "/components/blocks/Features/features",
         },
         WithStatsAndImage2: {
           name: "Stats With Image 2",
@@ -81,17 +89,6 @@ export const components = {
         },
       }
     },
-
-    Cards: {
-      type: "Cards",
-      elements: {
-        Team: {
-          name: "Three Column Grid Cards For Profile",
-          component: Team,
-          url: "/components/blocks/Cards/team.js",
-        },
-      }
-    },
     job: {
       type: "Job",
       elements: {
@@ -105,16 +102,32 @@ export const components = {
           component: JobSwitcher,
           url: "components/blocks/Job/JobSwitcher.js",
         },
-        FrontEnd: {
-          name: "Front-End",
-          component: FrontEnd,
-          url: "components/blocks/Job/FrontEnd.js",
-        },
         ComingJob: {
           name: "Coming-Job",
           component: ComingJob,
           url: "components/blocks/Job/comingsoon.js",
+        },
+        Apply: {
+          name: "Apply",
+          component: Apply,
+          url: "components/blocks/Job/apply.js",
         }
+      }
+    },
+    Event: {
+      type: "Event",
+      elements: {
+        Past: {
+          name: "past",
+          component: Past,
+          url: "components/blocks/Event/past.js",
+        }
+      },
+      Present: {
+          name: "Simple Three Column With Image",
+          component: Present,
+          url: "/components/blocks/Blog/presentEvent.js",
+        },
       }
     },
 
@@ -126,12 +139,6 @@ export const components = {
           component: Blog,
           url: "/components/blocks/Blog/blog",
         },
-        Present: {
-          name: "Simple Three Column With Image",
-          component: Present,
-          url: "/components/blocks/Blog/presentEvent.js",
-        },
-      }
     },
 
     Testimonial: {
@@ -150,8 +157,8 @@ export const components = {
       elements: {
         SingleCol: {
           name: "Single Column",
-          component: SingleColFAQS,
-          url: "/components/blocks/FAQS/SingleCol",
+          component: FAQs,
+          url: "/components/blocks/FAQs/faq",
         },
       }
     },

@@ -7,7 +7,7 @@ import Header from "components/headers/light.js";
 import Footer from "components/footers/footers.js";
 import MainFeature1 from "components/features/TwoColWithButton.js";
 // import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
-import Features from "components/features/ThreeColSimple.js";
+import Features from "components/features/features.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
 
 import SupportIconImage from "images/support-icon.svg";

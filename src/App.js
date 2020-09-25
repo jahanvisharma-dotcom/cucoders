@@ -21,7 +21,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import ComponentRenderer from "ComponentRenderer.js";
 import Home from "MainLandingPage.js";
 import Blog from "components/blogs/blog.js";
-import Present from "components/blogs/present.js";
+import Present from "components/events/present.js";
 import Upcoming from "components/features/upcoming.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ComingSoon from "components/cta/comingsoon.js";
@@ -29,6 +29,9 @@ import About from "pages/AboutUs.js";
 import Contact from "pages/ContactUs.js";
 import Team from "pages/Team.js";
 import JobHome from "pages/jobHome.js";
+import Past from "components/events/past.js";
+
+import Back from "pages/back.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -50,6 +53,9 @@ export default function App() {
         <Route path="/present">
           <Present />
         </Route>
+        <Route path="/past">
+          <Past />
+        </Route>
         <Route path="/blog">
           <Blog />
         </Route>
@@ -58,6 +64,9 @@ export default function App() {
         </Route>
         <Route path="/comingsoon">
           <ComingSoon />
+        </Route>
+        <Route path="/back">
+          <Back />
         </Route>
         <Route path="/contact">
         <Contact />
@@ -72,22 +81,3 @@ export default function App() {
     </Router>
   );
 }
-
-// export default EventLandingPage;
-// export default HotelTravelLandingPage;
-// export default AgencyLandingPage;
-// export default SaaSProductLandingPage;
-// export default RestaurantLandingPage;
-// export default ServiceLandingPage;
-// export default HostingCloudLandingPage;
-
-// export default LoginPage;
-// export default SignupPage;
-// export default PricingPage;
-// export default AboutUsPage;
-// export default ContactUsPage;
-// export default BlogIndexPage;
-// export default TermsOfServicePage;
-// export default PrivacyPolicyPage;
-
-// export default MainLandingPage;

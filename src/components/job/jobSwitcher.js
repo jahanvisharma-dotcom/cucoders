@@ -6,7 +6,6 @@ import { SectionHeading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as SvgDecoratorBlob } from "images/svg-decorator-blob-6.svg";
-
 const HeaderContainer = tw.div`mt-10 w-full flex flex-col items-center`;
 const Heading = tw(SubheadingBase)`w-full`;
 
@@ -86,24 +85,11 @@ export default ({
 }) => {
   const defaultPlans = [
     {
-      name: "Front-End",
+      name: "Back-End",
       duration: "Full-Time",
       mainFeature: "You're a seasoned developer with a love for clean, functional code, relentless work ethic and an exceptional eye for detail.",
       //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
-      url: "https://google.com"
-    },
-    {
-      name: "Product Design",
-      duration: "Full-Time",
-      mainFeature: "You're an enthusiastic interface designer with an eye for detail and the desire to create engaging digital experiences.",
-      //features: ["60 Templates", "8 Landing Pages", "22 Internal Pages", "Priority Assistance"],
-      //featured: true,
-    },
-    {
-      name: "Business Development Manager",
-      duration: "Full-Time",
-      mainFeature: "You understand how to translate our offerings and skills into viable solutions and lasting partnerships.",
-      //features: ["90 Templates", "9 Landing Pages", "37 Internal Pages", "Personal Assistance"],
+      url: "back"
     },
   ];
 
