@@ -1,73 +1,92 @@
 import React from "react";
-import styled from "styled-components";
 import tw from "twin.macro";
-//eslint-disable-next-line
-import { css } from "styled-components/macro";
-import Footer from "components/footers/footers.js";
-import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import Header from "../headers/light.js";
-
+import styled from "styled-components";
+import { css } from "styled-components/macro"; //eslint-disable-line
+import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import DesignIllustration from "../../images/design-illustration-2.svg";
-const Form = tw.form`mt-8 md:mt-10 text-sm flex flex-col max-w-sm mx-auto md:mx-0`
+import TeamIllustrationSrc from "images/team-illustration-2.svg";
+import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
+
+import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+import Header from "components/headers/light.js";
+import Footer from "components/footers/footers.js";
 const Container = tw.div`relative`;
-const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
-const LeftColumn = tw.div`relative lg:w-5/12 text-center max-w-lg mx-auto lg:max-w-none lg:text-left`;
-const RightColumn = tw.div`relative mt-12 lg:mt-0 flex-1 flex flex-col justify-center lg:self-end`;
+const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
+const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
+const ImageColumn = tw(Column)`md:w-6/12 flex-shrink-0 relative`;
+const TextColumn = styled(Column)(props => [
+  tw`md:w-6/12 mt-16 md:mt-0`,
+  props.textOnLeft ? tw`md:mr-12 lg:mr-16 md:order-first` : tw`md:ml-12 lg:ml-16 md:order-last`
+]);
 
-const Heading = tw.h1`font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-900 leading-tight`;
-const Paragraph = tw.p`my-5 lg:my-8 text-base xl:text-lg`;
+const Image = styled.img(props => [
+  props.imageRounded && tw`rounded`,
+  props.imageBorder && tw`border`,
+  props.imageShadow && tw`shadow`,
+]);
 
-const Input = tw.input`mt-6 first:mt-0 border-b-2 py-3 focus:outline-none font-medium transition duration-300 hocus:border-primary-500`
-const IllustrationContainer = tw.div`flex justify-center lg:justify-end items-center`;
+const DecoratorBlob = styled(SvgDotPattern)(props => [
+  tw`w-20 h-20 absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2 fill-current text-primary-500 -z-10`,
+])
 
-// Random Decorator Blobs (shapes that you see in background)
-const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
-  ${tw`pointer-events-none opacity-5 absolute left-0 bottom-0 h-64 w-64 transform -translate-x-2/3 -z-10`}
-`;
+const TextContent = tw.div`lg:py-8 text-center md:text-left`;
 
-  const highlightGradientsCss = [
-    css`
-      background: rgb(56, 178, 172);
-      background-image: linear-gradient(115deg, #6415ff, #7431ff, #8244ff, #8e56ff, #9a66ff);
-    `,
-  ];
+const Subheading = tw(SubheadingBase)`text-center md:text-left`;
+const Heading = tw(
+  SectionHeading
+)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
+const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
 
-const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
+const PrimaryButton = styled(PrimaryButtonBase)(props => [
+  tw`mt-8 md:mt-8 text-sm inline-block mx-auto md:mx-0`,
+  props.buttonRounded && tw`rounded-full`
+]);
+
+
 export default ({
-  formAction = "https://www.flexyform.com/f/f782f80218d6a07565f2b0e4e2d18bb35d201010",
-  formMethod = "post",
-  submitButtonText = "Know Status",
-}) => {
-  return (
+  subheading = "Coming Soon",
+  heading = (
     <>
-      <AnimationRevealPage>
-      <Header />
-      <Container>
-        <TwoColumn>
-          <LeftColumn>
-            <Heading>
-              Developers are fetching<span tw="text-primary-500"> Data.</span>
-            </Heading>
-            <Paragraph>
-              Developing a good work ethic is key. Apply yourself at whatever you do, whether you're a janitor or taking your first summer job because that work ethic will be reflected in everything you do in life.
-            </Paragraph>
-            <Form action={formAction} method={formMethod}>
-            <Input type="email" name="email" placeholder="Your Email Address" />
-              <SubmitButton type="submit" css={highlightGradientsCss}>{submitButtonText}</SubmitButton>
-            </Form>
-          </LeftColumn>
-          <RightColumn>
-            <IllustrationContainer>
-              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />
-            </IllustrationContainer>
-          </RightColumn>
-        </TwoColumn>
-        <DecoratorBlob1 />
-        <Footer />
-      </Container>
-      </AnimationRevealPage>
+      We are <span tw="text-primary-500">Working.</span>
     </>
+  ),
+  description = "“Developing a good work ethic is key. Apply yourself at whatever you do, whether you're a janitor or taking your first summer job because that work ethic will be reflected in everything you do in life.”",
+  primaryButtonText = "Learn More",
+  primaryButtonUrl = "contact",
+  imageSrc = TeamIllustrationSrc,
+  buttonRounded = true,
+  imageRounded = true,
+  imageBorder = false,
+  imageShadow = false,
+  imageCss = null,
+  imageDecoratorBlob = true,
+  imageDecoratorBlobCss = null,
+  textOnLeft = true
+}) => {
+  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
+
+  return (
+    <AnimationRevealPage>
+    <Header />
+    <Container>
+      <TwoColumn>
+        <ImageColumn>
+          <Image css={imageCss} src={imageSrc} imageBorder={imageBorder} imageShadow={imageShadow} imageRounded={imageRounded}/>
+          {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
+        </ImageColumn>
+        <TextColumn textOnLeft={textOnLeft}>
+          <TextContent>
+            <Subheading>{subheading}</Subheading>
+            <Heading>{heading}</Heading>
+            <Description>{description}</Description>
+            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+              {primaryButtonText}
+            </PrimaryButton>
+          </TextContent>
+        </TextColumn>
+      </TwoColumn>
+      <Footer />
+    </Container>
+    </AnimationRevealPage>
   );
 };
