@@ -2,13 +2,9 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as SvgDecoratorBlob } from "images/svg-decorator-blob-6.svg";
-const HeaderContainer = tw.div`mt-10 w-full flex flex-col items-center`;
-const Heading = tw(SubheadingBase)`w-full`;
-
 const PlansContainer = tw.div`flex justify-between flex-col lg:flex-row items-center lg:items-stretch relative`;
 const Plan = styled.div`
   ${tw`w-full max-w-sm mt-16 lg:mr-8 lg:last:mr-0 text-center px-8 rounded-lg shadow relative pt-2 text-gray-900 bg-white flex flex-col`}
@@ -79,33 +75,32 @@ const DecoratorBlob = styled(SvgDecoratorBlob)`
 
 
 export default ({
-  heading = "Openings",
   plans = null,
   primaryButtonText = "Apply Now",
 }) => {
   const defaultPlans = [
     {
-      name: "Back-End Developer",
+      name: "Graphic Designer",
       duration: "Full-Time",
-      mainFeature: "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+      mainFeature: "There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.",
       //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
       //featured: true,
-      url: "backend",
+      url: "graphic"
     },
     {
-      name: "Front-End Developer",
+      name: "UI/UX Designer",
       duration: "Full-Time",
-      mainFeature: "You're a seasoned developer with a love for clean, functional code, relentless work ethic and an exceptional eye for detail.",
+      mainFeature: "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
       //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
-      url: "frontend"
+      url: "uiux"
     },
     {
-      name: "Full Stack Developer",
+      name: "Motion Designer",
       duration: "Full-Time",
-      mainFeature: "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+      mainFeature: "Design is not just what it looks like and feels like. Design is how it works.",
       //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
       //featured: true,
-      url: "fullstack"
+      url: "motion"
     }
   ];
 
@@ -114,24 +109,21 @@ export default ({
   const highlightGradientsCss = [
     css`
       background: rgb(56, 178, 172);
-      background-image: linear-gradient(115deg, #6415ff, #7431ff, #8244ff, #8e56ff, #9a66ff);
-    `,
-    css`
-      background: rgb(56, 178, 172);
       background: linear-gradient(115deg, rgba(56, 178, 172, 1) 0%, rgba(129, 230, 217, 1) 100%);
     `,
     css`
       background: rgb(245, 101, 101);
       background: linear-gradient(115deg, rgba(245, 101, 101, 1) 0%, rgba(254, 178, 178, 1) 100%);
+    `,
+    css`
+      background: rgb(56, 178, 172);
+      background-image: linear-gradient(115deg, #6415ff, #7431ff, #8244ff, #8e56ff, #9a66ff);
     `
   ];
 
   return (
     <Container>
       <ContentWithPaddingXl>
-        <HeaderContainer>
-          <Heading>{heading}</Heading>
-        </HeaderContainer>
         <PlansContainer>
           {plans.map((plan, index) => (
             <Plan key={index} featured={plan.featured}>
