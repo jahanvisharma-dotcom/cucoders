@@ -40,9 +40,9 @@ export default () => {
       <Content>
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
-            <h2>Apply Now</h2>
+            <h2>Join Now</h2>
             <form action="https://submit-form.com/dFLjwch7" target="_self">
-             <input type="hidden" name="_feedback.success.title" value="Thanks for applying!"/>
+             <input type="hidden" name="_feedback.success.title" value="Thanks for Joining!"/>
               <TwoColumn>
                 <Column>
                   <InputContainer>
