@@ -30,8 +30,19 @@ import Contact from "pages/ContactUs.js";
 import Team from "pages/Team.js";
 import JobHome from "pages/jobHome.js";
 import Past from "components/events/past.js";
+import Thanks from "components/thanks/thanks.js";
+import Member from "components/membership/member.js"
 
-import Back from "pages/back.js";
+import Back from "components/job/openings/backend/backend.js";
+import Front from "components/job/openings/frontend/frontend.js";
+import Full from "components/job/openings/fullstack/fullstack.js";
+import Setter from "components/job/openings/setter/setter.js";
+import Tester from "components/job/openings/tester/tester.js";
+import Editorial from "components/job/openings/editorialist/editorialist.js";
+import Graphic from "components/job/openings/graphic/graphic.js";
+import Motion from "components/job/openings/motion/motion.js";
+import UIUX from "components/job/openings/uiux/uiux.js";
+
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -65,11 +76,41 @@ export default function App() {
         <Route path="/comingsoon">
           <ComingSoon />
         </Route>
-        <Route path="/back">
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/backend">
           <Back />
         </Route>
-        <Route path="/contact">
-        <Contact />
+        <Route path="/frontend">
+          <Front />
+        </Route>
+        <Route path="/fullstack">
+          <Full />
+        </Route>
+        <Route path="/setter">
+          <Setter />
+        </Route>
+        <Route path="/tester">
+          <Tester />
+        </Route>
+        <Route path="/editorialist">
+        <Editorial />
+        </Route>
+        <Route path="/graphic">
+          <Graphic />
+        </Route>
+        <Route path="/motion">
+          <Motion />
+        </Route>
+        <Route path="/uiux">
+          <UIUX />
+        </Route>
+        <Route path="/thanks">
+          <Thanks />
+        </Route>
+        <Route path="/member">
+          <Member />
         </Route>
         <Route path="/about">
           <About />

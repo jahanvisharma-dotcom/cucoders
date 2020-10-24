@@ -68,7 +68,7 @@ const DecoratorBlob2 = tw(
 export default ({
   subheading = "",
   heading = "Testimonials",
-  description = "Here are what some of our amazing customers are saying about our hotels & tours.",
+  description = "Here are what some of our amazing members are saying about our hotels & tours.",
   testimonials = null,
   textOnLeft = false
 }) => {

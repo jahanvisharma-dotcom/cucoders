@@ -2,13 +2,9 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as SvgDecoratorBlob } from "images/svg-decorator-blob-6.svg";
-const HeaderContainer = tw.div`mt-10 w-full flex flex-col items-center`;
-const Heading = tw(SubheadingBase)`w-full`;
-
 const PlansContainer = tw.div`flex justify-between flex-col lg:flex-row items-center lg:items-stretch relative`;
 const Plan = styled.div`
   ${tw`w-full max-w-sm mt-16 lg:mr-8 lg:last:mr-0 text-center px-8 rounded-lg shadow relative pt-2 text-gray-900 bg-white flex flex-col`}
@@ -74,38 +70,36 @@ const BuyNowButton = styled(PrimaryButtonBase)`
 `;
 
 const DecoratorBlob = styled(SvgDecoratorBlob)`
-  ${tw`pointer-events-none -z-20 absolute left-0 bottom-0 h-64 w-64 opacity-25 transform -translate-x-1/2 translate-y-1/2`}
+  ${tw`pointer-events-none -z-20 absolute right-0 bottom-0 h-64 w-64 opacity-25 transform -translate-x-1/2 translate-y-1/2`}
 `;
 
 
 export default ({
-  heading = "Openings",
   plans = null,
   primaryButtonText = "Apply Now",
 }) => {
   const defaultPlans = [
     {
-      name: "Back-End Developer",
+      name: "Problem Setter",
       duration: "Full-Time",
-      mainFeature: "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+      mainFeature: "You can increase your problem-solving skills by honing your question-asking ability.",
       //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
-      //featured: true,
-      url: "backend",
+      url: "setter"
     },
     {
-      name: "Front-End Developer",
+      name: "Problem Tester",
       duration: "Full-Time",
-      mainFeature: "You're a seasoned developer with a love for clean, functional code, relentless work ethic and an exceptional eye for detail.",
-      //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
-      url: "frontend"
-    },
-    {
-      name: "Full Stack Developer",
-      duration: "Full-Time",
-      mainFeature: "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+      mainFeature: "There's no use of talking about the problem unless you talk about the solution.",
       //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
       //featured: true,
-      url: "fullstack"
+      url: "tester"
+    },
+    {
+      name: "Editorialist",
+      duration: "Full-Time",
+      mainFeature: "All problems become smaller when you confront them instead of dodging them.",
+      //features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
+      url: "editorialist"
     }
   ];
 
@@ -113,25 +107,22 @@ export default ({
 
   const highlightGradientsCss = [
     css`
+      background: rgb(245, 101, 101);
+      background: linear-gradient(115deg, rgba(245, 101, 101, 1) 0%, rgba(254, 178, 178, 1) 100%);
+    `,
+    css`
       background: rgb(56, 178, 172);
       background-image: linear-gradient(115deg, #6415ff, #7431ff, #8244ff, #8e56ff, #9a66ff);
     `,
     css`
       background: rgb(56, 178, 172);
       background: linear-gradient(115deg, rgba(56, 178, 172, 1) 0%, rgba(129, 230, 217, 1) 100%);
-    `,
-    css`
-      background: rgb(245, 101, 101);
-      background: linear-gradient(115deg, rgba(245, 101, 101, 1) 0%, rgba(254, 178, 178, 1) 100%);
     `
   ];
 
   return (
     <Container>
       <ContentWithPaddingXl>
-        <HeaderContainer>
-          <Heading>{heading}</Heading>
-        </HeaderContainer>
         <PlansContainer>
           {plans.map((plan, index) => (
             <Plan key={index} featured={plan.featured}>
