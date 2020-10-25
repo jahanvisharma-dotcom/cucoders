@@ -50,7 +50,7 @@ export default ({
   cards = [
     {
       imageSrc: "https://images.unsplash.com/photo-1599997949628-019bbbe3752a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&h=512&q=80",
-      position: "Founder",
+      position: "President",
       name: "Ankit Raj",
       links: [
         {
@@ -69,7 +69,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1599999384704-1d7b947bee0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
-      position: "President",
+      position: "Spokeperson",
       name: "Anustup Mukherjee",
       links: [
         {
