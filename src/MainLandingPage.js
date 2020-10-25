@@ -102,7 +102,7 @@ export default () => {
           }
         ]}
         primaryButtonText="Join Us"
-        primaryButtonUrl="/jobHome"
+        primaryButtonUrl="/careers"
         imageInsideDiv={false}
         imageSrc="https://images.unsplash.com/flagged/photo-1556655678-9d4812e3fbe9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
