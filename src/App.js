@@ -34,6 +34,7 @@ import Thanks from "components/thanks/thanks.js";
 import Member from "components/membership/member.js";
 import Privacy from "pages/PrivacyPolicy.js";
 import Terms from "pages/TermsOfService.js";
+import ThankYou from "components/membership/thanks.js";
 
 import Back from "components/job/openings/backend/backend.js";
 import Front from "components/job/openings/frontend/frontend.js";
@@ -110,6 +111,9 @@ export default function App() {
         </Route>
         <Route path="/thanks">
           <Thanks />
+        </Route>
+        <Route path="/thankyou">
+          <ThankYou />
         </Route>
         <Route path="/privacy">
           <Privacy />
