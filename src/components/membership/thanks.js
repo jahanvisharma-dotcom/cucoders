@@ -50,7 +50,7 @@ export default ({
   imageShadow = false,
   subheading = "",
   heading = "Thanks for Joining Us.",
-  description = "Congrts you become the part of CU-Coders as a member.",
+  description = "Congrats you become the part of CU-Coders as a member.",
   textOnLeft = false,
   testimonials = [
     {
