@@ -36,6 +36,9 @@ import Privacy from "pages/PrivacyPolicy.js";
 import Terms from "pages/TermsOfService.js";
 import ThankYou from "components/membership/thanks.js";
 
+import Registration from "components/events/quiz.js"
+import ThankYouSoMuch from "components/events/thanks.js";
+
 import Back from "components/job/openings/backend/backend.js";
 import Front from "components/job/openings/frontend/frontend.js";
 import Full from "components/job/openings/fullstack/fullstack.js";
@@ -114,6 +117,12 @@ export default function App() {
         </Route>
         <Route path="/thankyou">
           <ThankYou />
+        </Route>
+        <Route path="/ThankYouSoMuch">
+          <ThankYouSoMuch />
+        </Route>
+        <Route path="/registration">
+          <Registration />
         </Route>
         <Route path="/privacy">
           <Privacy />

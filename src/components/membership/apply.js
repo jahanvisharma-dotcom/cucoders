@@ -55,34 +55,34 @@ export default () => {
                     <Input id="email-input" type="email" name="email" required placeholder="E.g. john@mail.com" />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Your UID*</Label>
+                    <Label htmlFor="uid-input">Your UID*</Label>
                     <Input id="resume" type="text" name="uid" required placeholder="E.g. 1XBXX1XXX" />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Where did you hear about us*</Label>
-                    <Input id="resume" type="text" name="referrer" required placeholder="E.g. Friends, Relatives" />
+                    <Label htmlFor="name-input">Where did you hear about us*</Label>
+                    <Input id="referrer" type="text" name="referrer" required placeholder="E.g. Friends, Relatives" />
                   </InputContainer>
                 </Column>
                 <Column>
                   <InputContainer>
-                    <Label htmlFor="name-input">Your Branch*</Label>
-                    <Input id="message-input" name="branch" required placeholder="E.g. CSE, ECE"/>
+                    <Label htmlFor="branch-input">Your Branch*</Label>
+                    <Input id="branch-input" name="branch" required placeholder="E.g. CSE, ECE"/>
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="name-input">Your Graduation Year*</Label>
-                    <Input id="message-input" name="year" required placeholder="E.g. 2021, 2022"/>
+                    <Label htmlFor="year-input">Your Graduation Year*</Label>
+                    <Input id="year-input" name="year" required placeholder="E.g. 2021, 2022"/>
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Your Phone Number*</Label>
-                    <Input id="message-input" type="tel" name="number" required placeholder="E.g. +91(XXXXX-XXXXX)" />
+                    <Label htmlFor="tel-input">Your Phone Number*</Label>
+                    <Input id="phone-input" type="tel" name="number" required placeholder="E.g. +91(XXXXX-XXXXX)" />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Your Special Skills*</Label>
-                    <Input id="message-input" type="text" name="skills" required placeholder="E.g. react, javascript" />
+                    <Label htmlFor="name-input">Your Special Skills*</Label>
+                    <Input id="skills-input" type="text" name="skills" required placeholder="E.g. react, javascript" />
                   </InputContainer>
                 </Column>
               </TwoColumn>
-              <SubmitButton type="submit" value="Submit">Submit</SubmitButton>
+              <SubmitButton type="submit" value="Submit">Join</SubmitButton>
             </form>
           </div>
           <SvgDotPattern1 />
