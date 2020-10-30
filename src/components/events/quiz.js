@@ -59,7 +59,7 @@ export default () => {
                 <Column>
                   <InputContainer>
                     <Label htmlFor="name-input">Your UID*</Label>
-                    <Input id="uid-input" name="UID" required placeholder="E.g. CU-Coders, Chandigarh"/>
+                    <Input id="uid-input" name="UID" required placeholder="E.g. 1XBXX1XXX"/>
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="tel-input">Your Phone Number*</Label>
