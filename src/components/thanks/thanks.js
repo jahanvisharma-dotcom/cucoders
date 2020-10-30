@@ -50,7 +50,7 @@ export default ({
   imageShadow = false,
   subheading = "",
   heading = "Thanks for applying.",
-  description = "Congrts you're one step closer to be the part of CU-Coders as an official member.",
+  description = "Congrats you're one step closer to be the part of CU-Coders as an official member.",
   textOnLeft = false,
   testimonials = [
     {
