@@ -66,7 +66,7 @@ export default () => {
                 <Category>{post.category}</Category>
                 <Title>{post.title}</Title>
                 <Description>{post.description}</Description>
-                <Link href={post.url}>Register CLosed for 1st round</Link>
+                <Link href={post.url}>Registration CLosed</Link>
               </Card>
             </Column>
           ))}
