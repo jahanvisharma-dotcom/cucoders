@@ -13,6 +13,8 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 import Footer from "components/footers/footers.js";
 import JobList from "components/job/jobSwitcher.js";
+import JobList2 from "components/job/jobSwitcher-2.js";
+import JobList3 from "components/job/jobSwitcher-3.js";
 const Row = tw.div`flex flex-col lg:flex-row justify-between items-center lg:pt-16 max-w-screen-2xl mx-auto sm:px-8`;
 const Column = tw.div``;
 const TextColumn = tw(Column)`mr-auto lg:mr-0 max-w-lg lg:max-w-xl xl:max-w-2xl`;
@@ -39,7 +41,7 @@ const CustomerCompany = tw.p`mt-1 text-sm text-gray-500`
 export default ({
   heading = "CU-Coders is a fast-growing campus chapter of CodeChef.",
   description = "We build a robust Competitive Programming culture and making it accessible to all not only in the field of Competitive Programming, we cover all domains of Computer Science from Design to Data Science.",
-  imageSrc = "https://images.unsplash.com/photo-1599997949628-019bbbe3752a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+  imageSrc = "https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9",
   imageDecoratorBlob = true,
   primaryButtonUrl = "https://google.com",
   primaryButtonText = "Get Started",
@@ -89,6 +91,8 @@ export default ({
       </Container>
       <Company />
       <JobList />
+      <JobList2 />
+      <JobList3 />
       <Footer />
       </AnimationRevealPage>
     </>

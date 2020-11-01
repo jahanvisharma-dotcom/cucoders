@@ -3,8 +3,10 @@ import { useParams } from 'react-router-dom';
 import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
 import AboutUsPage from "pages/AboutUs.js";
+
+import TermsOfServicePage from "pages/TermsOfService.js";
+import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 import IllustrationAndVideoHero from "components/hero/TwoColumnWithVideo.js";
-import Back from "pages/back.js";
 
 import TwoColWithButtonFeatures from "components/features/TwoColWithButton.js";
 import Features from "components/features/features.js";
@@ -14,6 +16,8 @@ import AboutJob from "components/features/aboutJob.js";
 
 import Company from "components/job/company.js";
 import JobSwitcher from "components/job/jobSwitcher.js";
+import JobSwitcher2 from "components/job/jobSwitcher-2.js";
+import JobSwitcher3 from "components/job/jobSwitcher-3.js";
 import ComingJob from "components/job/comingsoon.js";
 
 import Blog from "components/blogs/blog.js";
@@ -32,7 +36,15 @@ import Footer from "components/footers/footers.js";
 import Past from "components/events/past.js";
 import Present from "components/events/present.js";
 
-import Apply from "components/job/apply.js";
+import Applyback from "components/job/openings/backend/apply.js";
+import Applyeditorial from "components/job/openings/editorialist/apply.js";
+import Applyfront from "components/job/openings/frontend/apply.js";
+import Applyfull from "components/job/openings/fullstack/apply.js";
+import Applygraphic from "components/job/openings/graphic/apply.js";
+import Applymotion from "components/job/openings/motion/apply.js";
+import Applysetter from "components/job/openings/setter/apply.js";
+import Applytester from "components/job/openings/tester/apply.js";
+import ApplyUi from "components/job/openings/uiux/apply.js";
 
 
 export const components = {
@@ -42,9 +54,13 @@ export const components = {
       component: AboutUsPage,
       url: `/components/innerPages/AboutUsPage`,
     },
-    Back: {
-      component: Back,
-      url: `/components/innerPages/back`,
+    PrivacyPolicyPage: {
+      component: PrivacyPolicyPage,
+      url: `/components/innerPages/PrivacyPolicyPage`,
+    },
+    TermsOfServicePage: {
+      component: TermsOfServicePage,
+      url: `/components/innerPages/TermsOfServicePage`,
     },
   },
 
@@ -102,15 +118,65 @@ export const components = {
           component: JobSwitcher,
           url: "components/blocks/Job/JobSwitcher.js",
         },
+        JobSwitcher2: {
+          name: "Job Switching",
+          component: JobSwitcher2,
+          url: "components/blocks/Job/JobSwitcher2.js",
+        },
+        JobSwitcher3: {
+          name: "Job Switching",
+          component: JobSwitcher3,
+          url: "components/blocks/Job/JobSwitcher3.js",
+        },
         ComingJob: {
           name: "Coming-Job",
           component: ComingJob,
           url: "components/blocks/Job/comingsoon.js",
         },
-        Apply: {
-          name: "Apply",
-          component: Apply,
-          url: "components/blocks/Job/apply.js",
+        Applyback: {
+          name: "Applyback",
+          component: Applyback,
+          url: "components/blocks/Job/openings/backend/apply.js",
+        },
+        Applyeditorial: {
+          name: "Applyeditorial",
+          component: Applyeditorial,
+          url: "components/blocks/Job/openings/editorialist/apply.js",
+        },
+        Applyfront: {
+          name: "Applyfront",
+          component: Applyfront,
+          url: "components/blocks/Job/openings/frontend/apply.js",
+        },
+        Applyfull: {
+          name: "Applyfull",
+          component: Applyfull,
+          url: "components/blocks/Job/openings/fullstack/apply.js",
+        },
+        Applygraphic: {
+          name: "Applygraphic",
+          component: Applygraphic,
+          url: "components/blocks/Job/openings/graphic/apply.js",
+        },
+        Applymotion: {
+          name: "Applymotion",
+          component: Applymotion,
+          url: "components/blocks/Job/openings/motion/apply.js",
+        },
+        Applysetter: {
+          name: "Applysetter",
+          component: Applysetter,
+          url: "components/blocks/Job/openings/setter/apply.js",
+        },
+        Applytester: {
+          name: "Applytester",
+          component: Applytester,
+          url: "components/blocks/Job/openings/tester/apply.js",
+        },
+        ApplyUi: {
+          name: "ApplyUi",
+          component: ApplyUi,
+          url: "components/blocks/Job/apply/applyUi.js",
         }
       }
     },

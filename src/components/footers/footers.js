@@ -43,8 +43,10 @@ export default () => {
             <Link href="/">Home</Link>
             <Link href="About">About</Link>
             <Link href="/Contact">Contact Us</Link>
-            <Link href="blog">Blog</Link>
             <Link href="/Team">Team</Link>
+            <Link href="/Careers">Careers</Link>
+            <Link href="/Privacy">Privacy Policy</Link>
+            <Link href="/Terms">Terms & Conditions</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://www.instagram.com/cu.coders">

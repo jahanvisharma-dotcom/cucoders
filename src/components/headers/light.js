@@ -76,11 +76,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/Home">Home</NavLink>
       <NavLink href="/About">About</NavLink>
       <NavLink href="/team">Our Team</NavLink>
-      <NavLink href="/comingsoon">Upcoming Events</NavLink>
-      <NavLink href="/comingsoon">Events</NavLink>
+      <NavLink href="/upcoming">Coming Events</NavLink>
+      <NavLink href="/present">Events</NavLink>
       <NavLink href="/past">Past Events</NavLink>
-      <NavLink href="/jobHome">Join Us</NavLink>
-      <NavLink href="/comingsoon">Blog</NavLink>
+      <NavLink href="/careers">Careers</NavLink>
+      <NavLink href="/member">Membership</NavLink>
       <NavLink href="/contact">Contact Us</NavLink>
     </NavLinks>
   ];

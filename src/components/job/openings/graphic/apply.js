@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import {ReactComponent as SvgDotPatternIcon} from "../../images/dot-pattern.svg"
+import {ReactComponent as SvgDotPatternIcon} from "../../../../images/dot-pattern.svg"
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -41,27 +41,26 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Apply Now</h2>
-            <form action="https://submit-form.com/-7l-Uaca-kOSKrWep9t37" target="_self">
-             <input type="hidden" name="_feedback.success.title" value="Thanks for applying!"/>
+            <form method="post" action="https://formbucket.com/f/buk_qt9Iugrvd6SSvJA5FT3pwl3p"enctype="multipart/form-data">
               <TwoColumn>
                 <Column>
                   <InputContainer>
                     <Label htmlFor="name-input">Your Name*</Label>
-                    <Input id="name-input" type="text" name="name" required placeholder="E.g. John Doe" />
+                    <Input id="name-input" type="name" name="name" required placeholder="E.g. John Doe" />
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="email-input">Your Email Address*</Label>
                     <Input id="email-input" type="email" name="email" required placeholder="E.g. john@mail.com" />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Your Resume URL*</Label>
-                    <Input id="resume" type="url" name="resume" required placeholder="E.g. drive.com/xyz" />
+                    <Label htmlFor="email-input">Your Resume*</Label>
+                    <Input id="resume" type="file" name="resume" required placeholder="E.g. https://drive.com/xyz" />
                   </InputContainer>
                 </Column>
                 <Column>
                   <InputContainer>
                     <Label htmlFor="name-input">Your Address*</Label>
-                    <TextArea id="message-input" name="address" required placeholder="E.g. CU-Coders, Chandigarh"/>
+                    <TextArea id="message-input" type="text" name="address" required placeholder="E.g. CU-Coders, Chandigarh"/>
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="email-input">Your Phone Number*</Label>

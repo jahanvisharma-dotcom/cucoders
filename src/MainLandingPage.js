@@ -12,7 +12,6 @@ import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
 import FAQs from "components/faqs/faq.js";
-
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -103,7 +102,7 @@ export default () => {
           }
         ]}
         primaryButtonText="Join Us"
-        primaryButtonUrl="/jobHome"
+        primaryButtonUrl="/careers"
         imageInsideDiv={false}
         imageSrc="https://images.unsplash.com/flagged/photo-1556655678-9d4812e3fbe9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
         imageCss={Object.assign(tw`bg-cover`, imageCss)}

@@ -9,7 +9,6 @@ import styled from "styled-components";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
 import {SectionDescription} from "components/misc/Typography";
-import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as InstagramIcon} from "images/instagram.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
@@ -51,7 +50,7 @@ export default ({
   cards = [
     {
       imageSrc: "https://images.unsplash.com/photo-1599997949628-019bbbe3752a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&h=512&q=80",
-      position: "Founder",
+      position: "President",
       name: "Ankit Raj",
       links: [
         {
@@ -70,7 +69,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1599999384704-1d7b947bee0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
-      position: "President",
+      position: "Overall Coordinator",
       name: "Anustup Mukherjee",
       links: [
         {
@@ -89,7 +88,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1600097873961-12154219b396?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
-      position: "Marketing Head",
+      position: "Program Head",
       name: "Itashi Pathria",
       links: [
         {
@@ -124,10 +123,48 @@ export default ({
           icon: GithubIcon,
         },
       ],
+    },    
+    {
+      imageSrc: "https://images.unsplash.com/photo-1603970277321-b29de3895149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facepad=100.95&w=512&q=80",
+      position: "Outreach & Media Lead",
+      name: "Ishita Thapliyal",
+      links: [
+        {
+          url: "",
+          icon: InstagramIcon,
+        },
+        {
+          url: "",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=facepad=100.95&w=512&q=80",
+      position: "Competitive Programming Lead",
+      name: "Aditya Bakliwal",
+      links: [
+        {
+          url: "",
+          icon: InstagramIcon,
+        },
+        {
+          url: "",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "",
+          icon: GithubIcon,
+        },
+      ],
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1600000560828-90d1d926e05a?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Front-End Developer",
+      position: "Management Head",
       name: "Aditya Kumar",
       links: [
         {
@@ -203,7 +240,7 @@ export default ({
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1599999251979-7f2d12a9dbb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Front-End Developer",
+      position: "Front-End Lead",
       name: "Kartik Malik",
       links: [
         {
@@ -216,25 +253,6 @@ export default ({
         },
         {
           url: "https://github.com/Kartikmalik271",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1600106975020-4d5d9fa38e08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Front-End Developer",
-      name: "Ayushi Chauhan",
-      links: [
-        {
-          url: "https://www.instagram.com/ayuu_shiiii/",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/ayushi-chauhan-87a45a1b0/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/Ayushi2811",
           icon: GithubIcon,
         },
       ],
@@ -353,7 +371,7 @@ export default ({
         },
       ],
     },
-    {
+    /*{
       imageSrc: "https://images.unsplash.com/photo-1600097863410-453660a39f94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Back-End Developer",
       name: "Varun",
@@ -371,7 +389,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    },*/
   ]
 }) => {
   return (
