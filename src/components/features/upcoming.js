@@ -53,6 +53,15 @@ export default () => {
       description:
         "An initiative from the Dot QuestionMark which introduces a series of 9 distinct events, all that promises to build a foundation for the knowledge of any specific domain.",
       url: "https://neev.dotquestionmark.com/"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
+      subtitle: "Free",
+      title: "DSA Coding Contest",
+      description:
+        "A online coding contest based on concepts of algorithms, data structures and problem solving.",
+      url: "https://www.hackerrank.com/welcome-to-cu-coders"
     }
   ];
 
