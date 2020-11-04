@@ -49,7 +49,7 @@ export default ({
   imageBorder = false,
   imageShadow = true,
   subheading = "We're so glad you registered for the event.",
-  heading = "Nov. 03rd, at 22:00 IST",
+  heading = "Nov. 05th, at 22:00 IST",
   description = "Thank you for registering for the CU-Coders Online Challenge. You have registered for QUIZ2: CU-Coders Online Challenge(Quiz)",
   textOnLeft = false,
   testimonials = [
