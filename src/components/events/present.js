@@ -45,7 +45,7 @@ export default () => {
       title: "Welcome to CU-Coders",
       description:
         "Quiz to test your basics in programming languages like C/C++,Java , Python, JavaScript and to boost your programming skills. Each week, Quiz on a particular programming language will be made available to you three different days..",
-      url: '/Registration'
+      url: '/coming'
     }
   ];
   return (
@@ -66,7 +66,7 @@ export default () => {
                 <Category>{post.category}</Category>
                 <Title>{post.title}</Title>
                 <Description>{post.description}</Description>
-                <Link href={post.url}>Register Now</Link>
+                <Link href={post.url}>Registration Closed</Link>
               </Card>
             </Column>
           ))}
