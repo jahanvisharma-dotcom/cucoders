@@ -54,7 +54,7 @@ export default ({
     Starters: [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1604542246611-6d2fbde3ef64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1604850262519-d654db20effb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
       title: "Gurjeet Singh",
       content: "CSE",
       price: "10910 points",
