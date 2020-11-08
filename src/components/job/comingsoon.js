@@ -31,7 +31,7 @@ export default ({
   subheading = "Hiring Soon",
   heading = (
     <>
-      We will not make you <span tw="text-primary-500">to wait too much</span> for hiring.
+      We will not make you <span tw="text-primary-500">to wait too much</span> for joining us😍😍.
     </>
   ),
   description = "There are so many things you can learn about. But you’ll miss the best things if you keep your eyes shut.",

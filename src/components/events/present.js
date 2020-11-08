@@ -6,6 +6,7 @@ import Footer from "components/footers/footers.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 
+import Top from "components/cta/top.js";
 
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
@@ -75,6 +76,9 @@ export default () => {
       <DecoratorBlob1 />
       <DecoratorBlob2 />
     </Container>
+    <Top
+      heading={<>Chef of the Week</>}
+      />
     <Footer />
     </AnimationRevealPage>
     </>

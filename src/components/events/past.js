@@ -57,102 +57,12 @@ export default ({
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
       author: "Ankit Raj",
       category: "Coding Contest",
-      title: "20th Jan, 2020",
-      description: "An online Test for First Year Engineering Students on 20th Jan 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
-      url: "https://www.codechef.com/MABT2020"
-    },
-    {
-      imageSrc:
-      "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
-      author: "Ankit Raj",
-      category: "Coding Contest",
-      title: "12th Feb, 2020",
-      description: "An online Test for First Year Engineering Students on 12th Feb 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
-      url: "https://www.codechef.com/MAHA2020"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      author: "Ankit Raj",
-      category: "Coding Contest",
-      title: "25th Feb, 2020",
-      description: "An online Test for First Year Engineering Students on 25th Feb 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
-      url: "https://www.codechef.com/MAR12020"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      author: "Anustup Mukherjee",
-      category: "Workshop",
-      title: "28th Feb, 2020",
-      description: "A one day long workhsop for First Year Engineering Students on 28th Feb 2020 held at chandigarh university from CodeChef CU-Coders where students are trained with the basic concepts of python and machine learning from scratch.Building real life algorithms ,implementing deep learning and creating models to solve real world issues.",
-      url: "#"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1596496181848-3091d4878b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      author: "Anustup Mukherjee",
-      category: "Workshop",
-      title: "02nd March, 2020",
-      description: "A workshop for First Year Engineering Students on 02nd March 2020. ABC's of R workshop By Anustup Mukherjee : A day long workshop starting from the basics of R , implemetation of R in statistical computing , data modelling and how we can use R in Machine learning and AI . Students from TCS brach are given hands on trainig on advanced R software.",
-      url: "#"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      author: "Ankit Raj",
-      category: "Coding Contest",
-      title: "04th March, 2020",
-      description: "An online Test for First Year Engineering Students on 04th March 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
-      url: "https://www.codechef.com/MAR32020"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1559424432-7d6c9a977daf?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
-      author: "Ankit Raj",
-      category: "Hackathon",
-      title: "02nd April, 2020",
-      description: "The hackathon was conducted to create solutions against the spread of the COVID-19. Any hardware or software solutions to stop the spread or predication and detection models against the disease. It was completely an Online Hackathon to make something world changing and to save millons of life!!",
-      url: "https://www.codechef.com/COVDHACK?itm_campaign=contest_listing"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      author: "CU-Coders",
-      category: "Summer of Code",
-      title: "22nd April, 2020",
-      description: "A 2 months coding contest start from 22nd April 2020 CSoC ( CU-Coders University Summer of Code) is a program organised by Developers of CU-Coders in collaboration with CodeChef focused on bringing more student developers into open source software development.",
-      url: "https://github.com/CSoC-2020"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/flagged/photo-1556655678-9d4812e3fbe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
-      author: "Ankit Raj",
-      category: "Coding Contest",
-      title: "30th April, 2020",
+      title: "04th November, 2020",
       description: "An online Test for First Year Engineering Students on 30th April 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
-      url: "https://www.hackerrank.com/contests/cu-coders/challenges"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/flagged/photo-1556655678-9d4812e3fbe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
-      author: "Ankit Raj",
-      category: "Coding Contest",
-      title: "10th May, 2020",
-      description: "An online Test for First Year Engineering Students on 10th May 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
-      url: "https://www.codechef.com/CUCO2020"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-      author: "CSoC Committee",
-      category: "Webinar",
-      title: "27th Jun, 2020",
-      description: "A workshop on 27th June 2020 under the CSoC contest.How to start with Open Source By Kushal Kushwaha : An hour webinar where students are given a clear cut idea of how to start and where to start in open source in umbrella of Pi Shaped learning. Students intriduced to foss community, given ideas about GSOC's and MLH fellowship.",
-      url: "#"
+      url: "https://www.hackerrank.com/contests/welcome-to-cu-coders/challenges"
     },
     {
       imageSrc:
@@ -171,6 +81,105 @@ export default ({
       title: "05-11th August, 2020",
       description: "An online test for First, Second and Third Year Engineering Students from 05th August 2020 to 11th August 2020. This coding contest was based on concepts of algorithms, data structures and problem solving in which 3 levels were there and difficulty level increased with time.",
       url: "https://www.codechef.com/POID2020"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      author: "CSoC Committee",
+      category: "Webinar",
+      title: "27th Jun, 2020",
+      description: "A workshop on 27th June 2020 under the CSoC contest.How to start with Open Source By Kushal Kushwaha : An hour webinar where students are given a clear cut idea of how to start and where to start in open source in umbrella of Pi Shaped learning. Students intriduced to foss community, given ideas about GSOC's and MLH fellowship.",
+      url: "#"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "10th May, 2020",
+      description: "An online Test for First Year Engineering Students on 10th May 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.codechef.com/CUCO2020"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/flagged/photo-1556655678-9d4812e3fbe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "30th April, 2020",
+      description: "An online Test for First Year Engineering Students on 30th April 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.hackerrank.com/contests/cu-coders/challenges"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      author: "CU-Coders",
+      category: "Summer of Code",
+      title: "22nd April, 2020",
+      description: "A 2 months coding contest start from 22nd April 2020 CSoC ( CU-Coders University Summer of Code) is a program organised by Developers of CU-Coders in collaboration with CodeChef focused on bringing more student developers into open source software development.",
+      url: "https://github.com/CSoC-2020"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1559424432-7d6c9a977daf?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      author: "Ankit Raj",
+      category: "Hackathon",
+      title: "02nd April, 2020",
+      description: "The hackathon was conducted to create solutions against the spread of the COVID-19. Any hardware or software solutions to stop the spread or predication and detection models against the disease. It was completely an Online Hackathon to make something world changing and to save millons of life!!",
+      url: "https://www.codechef.com/COVDHACK?itm_campaign=contest_listing"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "04th March, 2020",
+      description: "An online Test for First Year Engineering Students on 04th March 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.codechef.com/MAR32020"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1596496181848-3091d4878b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      author: "Anustup Mukherjee",
+      category: "Workshop",
+      title: "02nd March, 2020",
+      description: "A workshop for First Year Engineering Students on 02nd March 2020. ABC's of R workshop By Anustup Mukherjee : A day long workshop starting from the basics of R , implemetation of R in statistical computing , data modelling and how we can use R in Machine learning and AI . Students from TCS brach are given hands on trainig on advanced R software.",
+      url: "#"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      author: "Anustup Mukherjee",
+      category: "Workshop",
+      title: "28th Feb, 2020",
+      description: "A one day long workhsop for First Year Engineering Students on 28th Feb 2020 held at chandigarh university from CodeChef CU-Coders where students are trained with the basic concepts of python and machine learning from scratch.Building real life algorithms ,implementing deep learning and creating models to solve real world issues.",
+      url: "#"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "25th Feb, 2020",
+      description: "An online Test for First Year Engineering Students on 25th Feb 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.codechef.com/MAR12020"
+    },
+    {
+      imageSrc:
+      "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "12th Feb, 2020",
+      description: "An online Test for First Year Engineering Students on 12th Feb 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.codechef.com/MAHA2020"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "20th Jan, 2020",
+      description: "An online Test for First Year Engineering Students on 20th Jan 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.codechef.com/MABT2020"
     }
   ];
   return (
