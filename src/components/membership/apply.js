@@ -2,92 +2,72 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import {ReactComponent as SvgDotPatternIcon} from "../../images/dot-pattern.svg"
+import mockupImageSrc from "images/coming.png"
+import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-9.svg";
+import { ContentWithPaddingXl, Container as ContainerBase } from "components/misc/Layouts";
+import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 
-const Container = tw.div`relative`;
-const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
+import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+const Container = tw(ContainerBase)`bg-gray-900 -mx-8`
+const Content = tw(ContentWithPaddingXl)``
+const Row = tw.div`px-8 flex items-center relative z-10 flex-col lg:flex-row text-center lg:text-left justify-center`;
 
-const FormContainer = styled.div`
-  ${tw`p-10 sm:p-12 md:p-16 bg-primary-500 text-gray-100 rounded-lg relative`}
-  form {
-    ${tw`mt-4`}
+const ColumnContainer = tw.div`max-w-lg`
+const TextContainer = tw(ColumnContainer)``;
+const Text = tw(SectionHeading)`text-gray-100 lg:text-left max-w-none text-3xl leading-snug`;
+const Subheading = tw(SubheadingBase)`text-yellow-500 mb-4 tracking-wider`
+
+const LinksContainer = tw.div`mt-8 lg:mt-16 flex flex-col items-center sm:block`
+const Link = styled.a`
+  ${tw`w-56 p-3 sm:p-4 text-sm sm:text-base font-bold uppercase tracking-wider rounded-full inline-flex justify-center items-center mt-6 first:mt-0 sm:mt-0 sm:ml-8 first:ml-0 bg-gray-100 hocus:bg-gray-300 text-gray-900 hocus:text-gray-900 shadow hover:shadow-lg focus:shadow-outline focus:outline-none transition duration-300`}
+  img {
+    ${tw`inline-block h-8 mr-3`}
   }
-  h2 {
-    ${tw`text-3xl sm:text-4xl font-bold`}
-  }
-  input,textarea {
-    ${tw`w-full bg-transparent text-gray-100 text-base font-medium tracking-wide border-b-2 py-2 text-gray-100 hocus:border-pink-400 focus:outline-none transition duration-200`};
-
-    ::placeholder {
-      ${tw`text-gray-500`}
-    }
+  span {
+    ${tw`leading-none inline-block`}
   }
 `;
 
-const TwoColumn = tw.div`flex flex-col sm:flex-row justify-between`;
-const Column = tw.div`sm:w-5/12 flex flex-col`;
-const InputContainer = tw.div`relative py-5 mt-6`;
-const Label = tw.label`absolute top-0 left-0 tracking-wide font-semibold text-sm`;
-const Input = tw.input``;
-//const TextArea = tw.textarea`h-24 sm:h-full resize-none`;
-const SubmitButton = tw.button`w-full sm:w-32 mt-6 py-3 bg-gray-100 text-primary-500 rounded-full font-bold tracking-wide shadow-lg uppercase text-sm transition duration-300 transform focus:outline-none focus:shadow-outline hover:bg-gray-300 hover:text-primary-700 hocus:-translate-y-px hocus:shadow-xl`;
+const ImageContainer = tw(ColumnContainer)`mt-16 lg:mt-0 lg:ml-16 flex justify-end`;
 
-const SvgDotPattern1 = tw(SvgDotPatternIcon)`absolute bottom-0 right-0 transform translate-y-1/2 translate-x-1/2 -z-10 opacity-50 text-primary-500 fill-current w-24`
-
-export default () => {
+const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-lg`
+const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-gray-800 opacity-50`
+const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-gray-800 opacity-50`
+export default ({
+  subheading = "Your dreams are our dreams.",
+  text = "Your journey is going to start with us.",
+  link1Text = "Home",
+  link1Url = "/",
+  link2Text = "Join Us",
+  link2Url = "https://www.codechef.com/college-chapter/member",
+  imageSrc = mockupImageSrc,
+}) => {
   return (
+    <>
+    <AnimationRevealPage>
     <Container>
       <Content>
-        <FormContainer>
-          <div tw="mx-auto max-w-4xl">
-            <h2>Join Now</h2>
-            
-            <form action="https://submit-form.com/dFLjwch7" target="_self">
-             <input type="hidden" name="_redirect" value="https://cucoders.tech/thankYou" />
-              <TwoColumn>
-                <Column>
-                  <InputContainer>
-                    <Label htmlFor="name-input">Your Name*</Label>
-                    <Input id="name-input" type="text" name="name" required placeholder="E.g. John Doe" />
-                  </InputContainer>
-                  <InputContainer>
-                    <Label htmlFor="email-input">Your Email Address*</Label>
-                    <Input id="email-input" type="email" name="email" required placeholder="E.g. john@mail.com" />
-                  </InputContainer>
-                  <InputContainer>
-                    <Label htmlFor="uid-input">Your UID*</Label>
-                    <Input id="resume" type="text" name="uid" required placeholder="E.g. 1XBXX1XXX" />
-                  </InputContainer>
-                  <InputContainer>
-                    <Label htmlFor="name-input">Where did you hear about us*</Label>
-                    <Input id="referrer" type="text" name="referrer" required placeholder="E.g. Friends, Relatives" />
-                  </InputContainer>
-                </Column>
-                <Column>
-                  <InputContainer>
-                    <Label htmlFor="branch-input">Your Branch*</Label>
-                    <Input id="branch-input" name="branch" required placeholder="E.g. CSE, ECE"/>
-                  </InputContainer>
-                  <InputContainer>
-                    <Label htmlFor="year-input">Your Graduation Year*</Label>
-                    <Input id="year-input" name="year" required placeholder="E.g. 2021, 2022"/>
-                  </InputContainer>
-                  <InputContainer>
-                    <Label htmlFor="tel-input">Your Phone Number*</Label>
-                    <Input id="phone-input" type="tel" name="number" required placeholder="E.g. +91(XXXXX-XXXXX)" />
-                  </InputContainer>
-                  <InputContainer>
-                    <Label htmlFor="name-input">Your Special Skills*</Label>
-                    <Input id="skills-input" type="text" name="skills" required placeholder="E.g. react, javascript" />
-                  </InputContainer>
-                </Column>
-              </TwoColumn>
-              <SubmitButton type="submit" value="Submit">Join</SubmitButton>
-            </form>
-          </div>
-          <SvgDotPattern1 />
-        </FormContainer>
+        <Row>
+          <TextContainer>
+            {subheading && <Subheading>{subheading}</Subheading>}
+            <Text>{text}</Text>
+            <LinksContainer>
+              <Link href={link1Url}>
+                <span>{link1Text}</span>
+              </Link>
+              <Link href={link2Url}>
+                <span>{link2Text}</span>
+              </Link>
+            </LinksContainer>
+          </TextContainer>
+        </Row>
+        <DecoratorBlobContainer>
+          <DecoratorBlob1/>
+          <DecoratorBlob2/>
+        </DecoratorBlobContainer>
       </Content>
     </Container>
+    </AnimationRevealPage>
+    </>
   );
 };
