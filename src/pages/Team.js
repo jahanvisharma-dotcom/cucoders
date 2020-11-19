@@ -48,6 +48,25 @@ export default ({
   subheading = "Our Team",
   description = "None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful.",
   cards = [
+  {
+      imageSrc: "https://images.unsplash.com/photo-1605808778078-b87c29cef305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&h=512&q=80",
+      position: "Faculty Advisor",
+      name: "Vikas Wasson",
+      links: [
+        {
+          url: "",
+          icon: InstagramIcon,
+        },
+        {
+          url: "",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "",
+          icon: GithubIcon,
+        },
+      ],
+    },
     {
       imageSrc: "https://images.unsplash.com/photo-1599997949628-019bbbe3752a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&h=512&q=80",
       position: "President",
