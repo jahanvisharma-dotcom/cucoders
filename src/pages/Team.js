@@ -51,7 +51,7 @@ export default ({
   {
       imageSrc: "https://images.unsplash.com/photo-1605808778078-b87c29cef305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&h=512&q=80",
       position: "Faculty Advisor",
-      name: "Vikas Wasson",
+      name: "Dr. Vikas Wasson",
       links: [
         {
           url: "",
