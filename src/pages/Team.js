@@ -105,7 +105,7 @@ export default ({
         },
       ],
     },
-    {
+    /*{
       imageSrc: "https://images.unsplash.com/photo-1600097873961-12154219b396?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
       position: "Program Head",
       name: "Itashi Pathria",
@@ -123,22 +123,22 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    },*/
     {
-      imageSrc: "https://images.unsplash.com/photo-1599998555001-cadc3864710c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facepad=100.95&w=512&q=80",
-      position: "Event Head",
-      name: "Smriti Srivastava",
+      imageSrc: "https://images.unsplash.com/photo-1606413095041-78b5cadfc86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facepad=100.95&w=512&q=80",
+      position: "Event Lead",
+      name: "Bhavika Dalal",
       links: [
         {
-          url: "https://www.instagram.com/_tanya_insane_/",
+          url: "",
           icon: InstagramIcon,
         },
         {
-          url: "https://www.linkedin.com/in/smriti-srivastava-b3a25b168/",
+          url: "",
           icon: LinkedinIcon,
         },
         {
-          url: "https://github.com/smritisrivastava824",
+          url: "",
           icon: GithubIcon,
         },
       ],
@@ -150,6 +150,25 @@ export default ({
       links: [
         {
           url: "",
+          icon: InstagramIcon,
+        },
+        {
+          url: "",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
+      position: "Programming Lead",
+      name: "Aniruddha Agrawal",
+      links: [
+        {
+          url: "#",
           icon: InstagramIcon,
         },
         {
