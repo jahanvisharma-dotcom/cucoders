@@ -313,7 +313,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    }
   ]
 }) => {
   return (
