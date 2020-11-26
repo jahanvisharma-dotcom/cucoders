@@ -201,6 +201,25 @@ export default ({
       ],
     },
     {
+      imageSrc: "https://images.unsplash.com/photo-1599999750007-7fb8cc658e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
+      position: "Graphic Designer & Content Writer",
+      name: "Gunjan Paneri",
+      links: [
+        {
+          url: "https://www.instagram.com/_.click_it_all._/",
+          icon: InstagramIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/gunjan-paneri-4281201a1/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com/iamgunjan",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: "https://images.unsplash.com/photo-1600000343164-b0738438ac71?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Front-End Developer",
       name: "Parul Manhas",
@@ -295,25 +314,6 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1599999750007-7fb8cc658e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Graphic Designer & Content Writer",
-      name: "Gunjan Paneri",
-      links: [
-        {
-          url: "https://www.instagram.com/_.click_it_all._/",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/gunjan-paneri-4281201a1/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/iamgunjan",
-          icon: GithubIcon,
-        },
-      ],
-    }
   ]
 }) => {
   return (
