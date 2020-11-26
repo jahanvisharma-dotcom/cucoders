@@ -163,25 +163,6 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=facepad=100.95&w=512&q=80",
-      position: "Competitive Programming Lead",
-      name: "Aditya Bakliwal",
-      links: [
-        {
-          url: "",
-          icon: InstagramIcon,
-        },
-        {
-          url: "",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: "https://images.unsplash.com/photo-1600000560828-90d1d926e05a?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Management Head",
       name: "Aditya Kumar",
@@ -215,25 +196,6 @@ export default ({
         },
         {
           url: "#",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1599999378206-dba5b9d614cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Front-End Developer",
-      name: "Ketan",
-      links: [
-        {
-          url: "#",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/ketan-sharma-508087193",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/iamketan56",
           icon: GithubIcon,
         },
       ],
@@ -296,25 +258,6 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1600000607704-0be55573d954?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "AI/ML & Back-End Developer",
-      name: "Kartikey",
-      links: [
-        {
-          url: "#",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/kartikey-ahlawat-a63519172/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/kartikeyahl",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: "https://images.unsplash.com/photo-1599999374688-e13573468639?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Content Writer & Front-End Developer",
       name: "Satakshi Shrivastava",
@@ -351,64 +294,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1600097868711-946b33b7c9de?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Problem Setter",
-      name: "Manish",
-      links: [
-        {
-          url: "#",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/manish1004/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/gods-mack",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1599999390294-019ef5369a50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "AI/ML Developer",
-      name: "Pranai Yadav",
-      links: [
-        {
-          url: "#",
-          icon: InstagramIcon,
-        },
-        {
-          url: "#",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "#",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    /*{
-      imageSrc: "https://images.unsplash.com/photo-1600097863410-453660a39f94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Back-End Developer",
-      name: "Varun",
-      links: [
-        {
-          url: "https://www.twitter.com/varunkmr19",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/varunkmr19",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/varunkmr19",
-          icon: GithubIcon,
-        },
-      ],
-    },*/
+    }
   ]
 }) => {
   return (
