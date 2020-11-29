@@ -77,7 +77,7 @@ export default ({
                 <Quote>
                   {testimonial1.quote}
                   <ul>1. Basic understanding of front-end technologies and platforms, such as JavaScript, HTML5, and CSS3</ul>
-                  <ul>2. Good understanding of server-side CSS preprocessors, such as LESS and SASS</ul>
+                  <ul>2. Understanding of server-side CSS preprocessors, such as LESS and SASS</ul>
                   <ul>3. Translating designs and wire-frames into high quality code.</ul>
                   <ul>4. Worked on responsive web apps using MaterialUI,Bootstrap/CSS3 & HTML5.</ul>
                   <ul>5. Understanding of JavaScript ES2015, ES2016 and ES2017 features.</ul>

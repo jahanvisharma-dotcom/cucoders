@@ -101,7 +101,7 @@ export default ({
                   <ul>4. Build page navigation buttons and search fields.</ul>
                   <ul>5. Develop UI mockups and prototypes that clearly illustrate how sites function and look like.</ul>
                   <ul>6. Create original graphic designs (e.g. images, sketches and tables). </ul>
-                  <ul> 7. Prepare and present rough drafts to internal teams and key stakeholders.</ul>
+                  <ul>7. Prepare and present rough drafts to internal teams and key stakeholders.</ul>
                   <ul>8. Identify and troubleshoot UX problems (e.g. responsiveness).</ul>
                   <ul>9. Conduct layout adjustments based on user feedback.</ul>
                   <ul>10. Adhere to style standards on fonts, colors and images.</ul>

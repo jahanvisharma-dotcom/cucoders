@@ -13,6 +13,9 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Coming from "components/job/comingsoon.js";
 import Header from "components/headers/light.js";
 import Footer from "components/footers/footers.js";
+import JobSwitcher from "components/job/jobSwitcher.js";
+import JobSwitcher1 from "components/job/jobSwitcher-2.js";
+import JobSwitcher2 from "components/job/jobSwitcher-3.js";
 //import JobList from "components/job/jobSwitcher.js";
 //import JobList2 from "components/job/jobSwitcher-2.js";
 //import JobList3 from "components/job/jobSwitcher-3.js";
@@ -91,7 +94,9 @@ export default ({
         </ContentWithVerticalPadding>
       </Container>
       <Company />
-      <Coming />
+      <JobSwitcher />
+      <JobSwitcher1 />
+      <JobSwitcher2 />
       <Footer />
       </AnimationRevealPage>
     </>

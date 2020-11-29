@@ -77,13 +77,13 @@ export default ({
                 <Quote>
                   {testimonial1.quote}
                   <ul>1. Basic understanding of front-end technologies and platforms, such as JavaScript, HTML5, and CSS3</ul>
-                  <ul>2. Good understanding of server-side CSS preprocessors, such as LESS and SASS</ul>
+                  <ul>2. Understanding of server-side CSS preprocessors, such as LESS and SASS</ul>
                   <ul>3. Understanding accessibility and security compliance.</ul>
                   <ul>4. User authentication and authorization between multiple systems, servers, and environments.</ul>
                   <ul>5. Integration of multiple data sources and databases into one system.</ul>
                   <ul>6. Management of hosting environment, including database administration and scaling an application to support load changes.</ul>
                   <ul>7. Data migration, transformation, and scripting.</ul>
-                  <ul>8.Creating database schemas that represent and support business processes.</ul>
+                  <ul>8. Creating database schemas that represent and support business processes.</ul>
                   <ul>9. Proficient knowledge of a back-end programming language.</ul>
                   <ul>10. Proficient understanding of code versioning tools, such as Git.</ul>
                   <ul>11. Proficient understanding of OWASP security principles.</ul>

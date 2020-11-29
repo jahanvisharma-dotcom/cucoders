@@ -76,8 +76,8 @@ export default ({
                 <QuoteIcon />
                 <Quote>
                   {testimonial1.quote}
-                  <ul>1. A high level of proficiency using Adobe products like InDesign, Illustrator, and Photoshop.</ul>
-                  <ul>2. A basic working knowledge of screen design tools like Sketch.</ul>
+                  <ul>1. Have proficiency in using Adobe products like InDesign, Illustrator, and Photoshop.</ul>
+                  <ul>2. A basic working knowledge of screen design tools like Canva, Sketch.</ul>
                   <ul>3. Excellent communication skills, including the ability to clearly explain design decisions in words and writing.</ul>
                   <ul>4. The ability to receive, interpret, and implement constructive feedback from project stakeholders into your design work.</ul>
                   <ul>5. An appreciation for and awareness of emerging design trends in print and digital.</ul>

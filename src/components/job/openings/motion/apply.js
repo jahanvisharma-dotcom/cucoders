@@ -41,7 +41,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Apply Now</h2>
-            <form method="post" action="https://formbucket.com/f/buk_WpHqlE6yWJXAMqIrNgeScz58"enctype="multipart/form-data">
+             <form action="https://getform.io/f/6c3fbc07-97d9-46bc-b9c6-7e5308b9c75a" method="POST" enctype="multipart/form-data">
               <TwoColumn>
                 <Column>
                   <InputContainer>
