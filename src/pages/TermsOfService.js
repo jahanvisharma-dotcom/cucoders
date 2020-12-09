@@ -70,10 +70,10 @@ export default ({ headingText = "Terms And Condition" }) => {
               </li>
               <li>
                 <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
-                refers to Treact Inc., Navi Mumbai.
+                refers to CU-Coders.
               </li>
               <li>
-                <strong>Country</strong> refers to: Maharashtra, India
+                <strong>Country</strong> refers to: Chandigarh, India
               </li>
               <li>
                 <strong>Service</strong> refers to the Website.
@@ -88,7 +88,7 @@ export default ({ headingText = "Terms And Condition" }) => {
                 available by the Service.
               </li>
               <li>
-                <strong>Website</strong> refers to Treact, accessible from https://treact.com
+                <strong>Website</strong> refers to CU-Coders, accessible from https://cucoders.tech
               </li>
               <li>
                 <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal
