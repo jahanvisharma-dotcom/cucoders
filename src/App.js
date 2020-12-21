@@ -48,7 +48,7 @@ import Editorial from "components/job/openings/editorialist/editorialist.js";
 import Graphic from "components/job/openings/graphic/graphic.js";
 import Motion from "components/job/openings/motion/motion.js";
 import UIUX from "components/job/openings/uiux/uiux.js";
-
+import Register from "components/events/apply.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -114,6 +114,9 @@ export default function App() {
         </Route>
         <Route path="/uiux">
           <UIUX />
+        </Route>
+        <Route path="/apply">
+          <Register />
         </Route>
         <Route path="/thanks">
           <Thanks />

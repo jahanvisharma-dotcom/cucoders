@@ -8,7 +8,6 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Footer from "components/footers/footers.js";
 import Header from "components/headers/light.js";
 const Container = tw.div`relative`;
-
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
@@ -47,12 +46,12 @@ export default () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1603991318729-d12776468d70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
+        "https://images.unsplash.com/photo-1608541306415-7b9e464257fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       subtitle: "Free",
-      title: "Neev - The whirlwind of tech",
+      title: "Intro to CP",
       description:
-        "An initiative from the Dot QuestionMark which introduces a series of 9 distinct events, all that promises to build a foundation for the knowledge of any specific domain.",
-      url: "https://neev.dotquestionmark.com/"
+        "To be a programmer,  you have to think like a programmer. This coding contest is based on concepts of algorithms, data structures and problem solving.",
+      url: "/apply"
     }
   ];
 
@@ -77,7 +76,7 @@ export default () => {
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
                 <Description>{card.description}</Description>
-                <Link href={card.url}>See Event Details</Link>
+                <Link href={card.url}>Register</Link>
               </Details>
             </Card>
           ))}

@@ -55,6 +55,15 @@ export default ({
 
 }) => {
   const blogPosts = [
+  {
+      imageSrc:
+        "https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      author: "Ankit Raj",
+      category: "BootCamp",
+      title: "16th November - 16th December, 2020",
+      description: "An initiative from the Dot QuestionMark which introduces a series of 9 distinct events, all that promises to build a foundation for the knowledge of any specific domain.",
+      url: "https://neev.dotquestionmark.com/"
+    },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",

@@ -48,7 +48,7 @@ export default () => {
         "Quiz to test your basics in programming languages like C/C++,Java , Python, JavaScript and to boost your programming skills. Each week, Quiz on a particular programming language will be made available to you three different days..",
       url: '/coming'
     },
-    {
+    /*{
       imageSrc:
         "https://images.unsplash.com/photo-1603991318729-d12776468d70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
       subtitle: "Free",
@@ -56,7 +56,7 @@ export default () => {
       description:
         "An initiative from the Dot QuestionMark which introduces a series of 9 distinct events, all that promises to build a foundation for the knowledge of any specific domain.",
       url: "https://neev.dotquestionmark.com/"
-    }
+    }*/
   ];
   return (
     <>

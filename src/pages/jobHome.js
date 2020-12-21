@@ -10,7 +10,6 @@ import { ReactComponent as QuotesLeftIconBase } from "images/quotes-l.svg"
 import { ReactComponent as SvgDecoratorBlob1 } from "images/dot-pattern.svg"
 import Company from "components/job/company.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import Coming from "components/job/comingsoon.js";
 import Header from "components/headers/light.js";
 import Footer from "components/footers/footers.js";
 import JobSwitcher from "components/job/jobSwitcher.js";
