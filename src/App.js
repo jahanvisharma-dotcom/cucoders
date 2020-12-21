@@ -49,6 +49,8 @@ import Graphic from "components/job/openings/graphic/graphic.js";
 import Motion from "components/job/openings/motion/motion.js";
 import UIUX from "components/job/openings/uiux/uiux.js";
 import Register from "components/events/apply.js";
+import Details from "components/events/cp.js";
+import Detail from "components/misc/details.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -117,6 +119,12 @@ export default function App() {
         </Route>
         <Route path="/apply">
           <Register />
+        </Route>
+        <Route path="/details">
+          <Details />
+        </Route>
+        <Route path="/detail">
+          <Detail />
         </Route>
         <Route path="/thanks">
           <Thanks />

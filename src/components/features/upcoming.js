@@ -51,7 +51,7 @@ export default () => {
       title: "Intro to CP",
       description:
         "To be a programmer,  you have to think like a programmer. This coding contest is based on concepts of algorithms, data structures and problem solving.",
-      url: "/apply"
+      url: "/cp"
     }
   ];
 
