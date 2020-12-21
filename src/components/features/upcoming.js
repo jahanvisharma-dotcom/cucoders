@@ -51,7 +51,7 @@ export default () => {
       title: "Intro to CP",
       description:
         "To be a programmer,  you have to think like a programmer. This coding contest is based on concepts of algorithms, data structures and problem solving.",
-      url: "/cp"
+      url: "Details"
     }
   ];
 
@@ -76,7 +76,7 @@ export default () => {
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
                 <Description>{card.description}</Description>
-                <Link href={card.url}>Register</Link>
+                <Link href={card.url}>See Details</Link>
               </Details>
             </Card>
           ))}
