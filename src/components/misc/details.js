@@ -76,14 +76,14 @@ export default ({
                 <QuoteIcon />
                 <Quote>
                   {testimonial1.quote}
-                  <ul>1.You must have hackerrank id.</ul><br />
-                  <ul>2.This is an individual participation contest.</ul><br />
-                  <ul>3.Any case of code plagiarism will result in disqualification.</ul><br />
-                  <ul>4.Must be a student at Chandigarh University.</ul><br />
-                  <ul>5.There is a 2 second penalty on wrong answers and a 4 second penalty on compilation errors.</ul>
+                  <ul>1. You must have hackerrank id.</ul><br />
+                  <ul>2. This is an individual participation contest.</ul><br />
+                  <ul>3. Any case of code plagiarism will result in disqualification.</ul><br />
+                  <ul>4. Must be a student at Chandigarh University.</ul><br />
+                  <ul>5. There is a 2 second penalty on wrong answers and a 4 second penalty on compilation errors.</ul>
                   <br />
-                  <ul>6.The students data will be monitered for google searches and for solution searches. The questions are created by the organizers and are original. Any search for code or google searches related to any question would be concidered cheating and result in disqualification.</ul><br />
-                  <ul>7.All questions are tested and working.If you get any compilation errors or "Wrong Answer" error that means your logic is incorrect.</ul>
+                  <ul>6. The students data will be monitered for google searches and for solution searches. The questions are created by the organizers and are original. Any search for code or google searches related to any question would be concidered cheating and result in disqualification.</ul><br />
+                  <ul>7. All questions are tested and working.If you get any compilation errors or "Wrong Answer" error that means your logic is incorrect.</ul>
                 </Quote>
               </QuoteContainer>
             </Testimonial>
