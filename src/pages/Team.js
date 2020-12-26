@@ -277,6 +277,25 @@ export default ({
       ],
     },
     {
+      imageSrc: "https://images.unsplash.com/photo-1608997061316-4f2ec5db2451?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
+      position: "Problem Setter",
+      name: "Saksham Sharma",
+      links: [
+        {
+          url: "#",
+          icon: InstagramIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/ssaksham",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com/ssaksham",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: "https://images.unsplash.com/photo-1599999282595-9ff5e92d1f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "AI/ML Developer",
       name: "Harshdeep",
