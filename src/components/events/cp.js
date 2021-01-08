@@ -91,9 +91,9 @@ export default () => {
             <Heading>
               <span>Intro to CP</span>
               <br />
-              <SlantedBackground>26th Dec, 2020</SlantedBackground>
+              <SlantedBackground>11th Jan, 2021</SlantedBackground>
             </Heading>
-            <PrimaryLink href = "#">Registration Close</PrimaryLink>
+            <PrimaryLink href = "apply">Registration Close</PrimaryLink>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
