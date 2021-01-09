@@ -40,7 +40,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Register Now</h2>
-            <form method="post"action="https://formbucket.com/f/buk_NqVkcY2ZMMVIuQByJoVBjKl0">
+            <form method="post"action="https://formbucket.com/f/buk_aTwpD8AfVHOUeGzxZtZOwDJs">
               <TwoColumn>
                 <Column>
                   <InputContainer>
