@@ -55,7 +55,7 @@ export default ({
   testimonials = [
     {
       quote:
-        "We're also going to send you a mail regarding all the info. And we'll also send you a remainder before the event starts too."
+        "We're also going to send you a mail regarding all the info. And we'll also send you a remainder too before the event starts."
     }
   ]
 }) => {
