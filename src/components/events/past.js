@@ -57,6 +57,15 @@ export default ({
   const blogPosts = [
   {
       imageSrc:
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      author: "Ankit Raj",
+      category: "Coding Contest",
+      title: "26th December, 2020",
+      description: "An online Test for All Year Engineering Students on 26th December 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      url: "https://www.hackerrank.com/contests/intro-to-cp/"
+  },
+  {
+      imageSrc:
         "https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
       author: "Ankit Raj",
       category: "BootCamp",
@@ -70,7 +79,7 @@ export default ({
       author: "Ankit Raj",
       category: "Coding Contest",
       title: "04th November, 2020",
-      description: "An online Test for First Year Engineering Students on 30th April 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
+      description: "An online Test for First Year Engineering Students on 04th November 2020 under the supervision of respected HOD Academic Unit 1 Er. Vikas Wasson. This coding contest was based on concepts of algorithms, data structures and problem solving. All the problems have the same points allotted to them and participants are ranked according to the most problem solved and time constraints.",
       url: "https://www.hackerrank.com/contests/welcome-to-cu-coders/challenges"
     },
     {
