@@ -93,7 +93,7 @@ export default () => {
               <br />
               <SlantedBackground>11th Jan, 2021</SlantedBackground>
             </Heading>
-            <PrimaryLink href = "apply">Register Now</PrimaryLink>
+            <PrimaryLink href = "#">Registration Closed</PrimaryLink>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
