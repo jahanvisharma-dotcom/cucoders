@@ -12,6 +12,7 @@ import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
 import FAQs from "components/faqs/faq.js";
+import Partner from "components/cta/partner.js";
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -111,6 +112,7 @@ export default () => {
         imageDecoratorBlobCss={tw`left-1/2 md:w-32 md:h-32 -translate-x-1/2 opacity-25`}
         textOnLeft={true}
       />
+      <Partner />
       <Testimonial
         subheading=""
         heading={<>Members <HighlightedText>Love Us.</HighlightedText></>}
