@@ -23,7 +23,7 @@ import ComingJob from "components/job/comingsoon.js";
 import Blog from "components/blogs/blog.js";
 
 import testimonials from "components/testimonials/testimonials.js";
-
+import Partner from "components/cta/partner.js";
 import FAQs from "components/faqs/faq.js";
 
 import TwoColContactUsFullForm from "components/forms/contact.js";
@@ -247,6 +247,11 @@ export const components = {
           name: "Coming Soon",
           component: ComingSoon,
           url: "/components/blocks/CTA/comingsoon",
+        },
+        Partner: {
+          name: "Partner",
+          component: Partner,
+          url: "/components/blocks/CTA/partner",
         },
       }
     },
