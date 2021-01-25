@@ -58,7 +58,7 @@ const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-    <NavLink href="#">
+    <NavLink href="/home">
         Home
       </NavLink>
       <NavLink href="/About">
@@ -87,13 +87,13 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now comeup with series of DSA contest.</Notification>
+            <Notification>We have now comeup with series of Learning Series.</Notification>
             <Heading>
-              <span>Intro to CP</span>
+              <span>CP in 7 days</span>
               <br />
-              <SlantedBackground>11th Jan, 2021</SlantedBackground>
+              <SlantedBackground>26th Jan - 01th Feb</SlantedBackground>
             </Heading>
-            <PrimaryLink href = "#">Registration Closed</PrimaryLink>
+            <PrimaryLink href = "/apply">Register Now</PrimaryLink>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
