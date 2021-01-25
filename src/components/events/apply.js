@@ -31,6 +31,7 @@ const Label = tw.label`absolute top-0 left-0 tracking-wide font-semibold text-sm
 const Input = tw.input``;
 const SubmitButton = tw.button`w-full sm:w-32 mt-6 py-3 bg-gray-100 text-primary-500 rounded-full font-bold tracking-wide shadow-lg uppercase text-sm transition duration-300 transform focus:outline-none focus:shadow-outline hover:bg-gray-300 hover:text-primary-700 hocus:-translate-y-px hocus:shadow-xl`;
 
+const TextArea = tw.textarea`h-24 sm:h-full resize-none`;
 const SvgDotPattern1 = tw(SvgDotPatternIcon)`absolute bottom-0 right-0 transform translate-y-1/2 translate-x-1/2 -z-10 opacity-50 text-primary-500 fill-current w-24`
 
 export default () => {
@@ -40,7 +41,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Register Now</h2>
-            <form method="post"action="https://formbucket.com/f/buk_aTwpD8AfVHOUeGzxZtZOwDJs">
+            <form method="post"action="https://formbucket.com/f/buk_P7LZfv8CQWqIDJlzDeBDwSZb">
               <TwoColumn>
                 <Column>
                   <InputContainer>
@@ -55,19 +56,27 @@ export default () => {
                     <Label htmlFor="branch-input">Your Branch*</Label>
                     <Input id="branch-input" type="text" name="resume" required placeholder="E.g. CSE, ECE" />
                   </InputContainer>
+                  <InputContainer tw="flex-1">
+                    <Label htmlFor="name-input">Any suggestions?</Label>
+                    <TextArea id="suggestion-input" name="suggestion" placeholder="E.g. Include Graph"/>
+                  </InputContainer>
                 </Column>
                 <Column>
                   <InputContainer>
-                    <Label htmlFor="name-input">Your UID*</Label>
-                    <Input id="uid-input" name="UID" required placeholder="E.g. 1XBXX1XXX"/>
+                    <Label htmlFor="year">Year of Study*</Label>
+                    <Input id="uid-input" name="year" required placeholder="E.g. 1st"/>
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="username-input">Your HackerRank Username*</Label>
-                    <Input id="user-input" name="HackerRank Username" required placeholder="E.g. coderboy_"/>
+                    <Label htmlFor="College">Your College Name*</Label>
+                    <Input id="user-input" name="College" required placeholder="E.g. CU"/>
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="tel-input">Your Phone Number*</Label>
                     <Input id="phone-input" type="tel" name="number" required placeholder="E.g. +91(XXXXX-XXXXX)" />
+                  </InputContainer>
+                  <InputContainer tw="flex-1">
+                    <Label htmlFor="name-input">Question/Doubt you would like our speaker to address?</Label>
+                    <TextArea id="Questions-input" name="Questions" placeholder="E.g. What is CP"/>
                   </InputContainer>
                 </Column>
               </TwoColumn>
