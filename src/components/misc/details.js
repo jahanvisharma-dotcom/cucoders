@@ -23,7 +23,11 @@ export default ({
   testimonials = [
     {
      quote:
-        "Do you want to get placed in high paying companies like Facebook, Amazon, Apple, Netflix and Google❓ Do you also want to be among the top programmers who could write efficient and optimized code❓👨‍💻 If yes then, we should tell you that you just need to master your Data Structure and Algorithm Skills and you would be halfway there."
+        "✨Starting from Basic Intro to Programming to Advanced topics of Data Structures and Algorithms, we're going to cover it all!✨"
+    },
+    {
+     quote:
+        "👩🏼‍💻We will be sharing resources everyday in form of pdf and we also have something interesting coming up for you ,stay tuned for further updates!🌟💫"
     }
   ],
   testimonials1 = [
@@ -64,26 +68,9 @@ export default ({
                 <QuoteIcon />
                 <Quote>
                   {testimonial1.quote}
-                  <ul>1. Certificates for top 3.</ul>
-                </Quote>
-              </QuoteContainer>
-            </Testimonial>
-          ))}
-          <Heading>Rules</Heading>
-          {testimonials1.map((testimonial1, index) => (
-            <Testimonial key={index}>
-              <QuoteContainer>
-                <QuoteIcon />
-                <Quote>
-                  {testimonial1.quote}
-                  <ul>1. You must have hackerrank id.</ul><br />
-                  <ul>2. This is an individual participation contest.</ul><br />
-                  <ul>3. Any case of code plagiarism will result in disqualification.</ul><br />
-                  <ul>4. Must be a student at Chandigarh University.</ul><br />
-                  <ul>5. There is a 2 second penalty on wrong answers and a 4 second penalty on compilation errors.</ul>
-                  <br />
-                  <ul>6. The students data will be monitered for google searches and for solution searches. The questions are created by the organizers and are original. Any search for code or google searches related to any question would be concidered cheating and result in disqualification.</ul><br />
-                  <ul>7. All questions are tested and working.If you get any compilation errors or "Wrong Answer" error that means your logic is incorrect.</ul>
+                  The winners of this event will earn recognition via our social media channels and special perks are-
+                  <ul>1. Participation certificates to all participants</ul>
+                  <ul>2. Achievement certificates to top 3 contest winners!</ul>
                 </Quote>
               </QuoteContainer>
             </Testimonial>
