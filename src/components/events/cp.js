@@ -91,7 +91,7 @@ export default () => {
             <Heading>
               <span>CP in 7 days</span>
               <br />
-              <SlantedBackground>26th Jan - 01th Feb</SlantedBackground>
+              <SlantedBackground>26th Jan - 01st Feb</SlantedBackground>
             </Heading>
             <PrimaryLink href = "#">Open for All</PrimaryLink>
           </LeftColumn>
