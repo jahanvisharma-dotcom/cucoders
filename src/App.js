@@ -52,6 +52,16 @@ import Register from "components/events/apply.js";
 import Details from "components/events/cp.js";
 import Detail from "components/misc/details.js";
 
+
+import Shashank from "components/events/session/shashank.js";
+import Yashraj from "components/events/session/yashraj.js";
+import ShashankApply from "components/events/session/shashank_apply.js";
+import YashrajApply from "components/events/session/yashraj_apply.js";
+import ShashankThanks from "components/events/session/shashank_thanks.js";
+import YashrajThanks from "components/events/session/yashraj_thanks.js";
+
+import CP from "components/events/contest/2ndfeb.js";
+
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
@@ -149,6 +159,27 @@ export default function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/shashank_apply">
+          <ShashankApply />
+        </Route>
+        <Route path="/shashankthanks">
+          <ShashankThanks />
+        </Route>
+        <Route path="/shashank">
+          <Shashank />
+        </Route>
+        <Route path="/yashraj_apply">
+          <YashrajApply />
+        </Route>
+        <Route path="/yashrajthanks">
+          <YashrajThanks />
+        </Route>
+        <Route path="/yashraj">
+          <Yashraj />
+        </Route>
+        <Route path="/cp">
+          <CP />
         </Route>
         <Route path="/">
           <Home />

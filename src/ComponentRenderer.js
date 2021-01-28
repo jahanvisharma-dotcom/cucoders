@@ -47,6 +47,15 @@ import Applytester from "components/job/openings/tester/apply.js";
 import ApplyUi from "components/job/openings/uiux/apply.js";
 
 
+import Shashank from "components/events/session/shashank.js";
+import Yashraj from "components/events/session/yashraj.js";
+import ShashankApply from "components/events/session/shashank_apply.js";
+import YashrajApply from "components/events/session/yashraj_apply.js";
+import ShashankDetails from "components/events/session/shashank_details.js";
+import YashrajDeatails from "components/events/session/yashraj_details.js";
+
+import SecondFeb from "components/events/contest/2ndfeb.js";
+
 export const components = {
 
   innerPages: {
@@ -193,6 +202,41 @@ export const components = {
           name: "Simple Three Column With Image",
           component: Present,
           url: "/components/blocks/Blog/presentEvent.js",
+        },
+        Shashank: {
+          name: "Shashank",
+          component: Shashank,
+          url: "components/blocks/Event/session/shashank.js",
+        },
+        Yashraj: {
+          name: "Yashraj",
+          component: Yashraj,
+          url: "components/blocks/Event/session/yashraj.js",
+        },
+        ShashankApply: {
+          name: "ShashankApply",
+          component: ShashankApply,
+          url: "components/blocks/Event/session/shashank_apply.js",
+        },
+        YashrajApply: {
+          name: "YashrajApply",
+          component: YashrajApply,
+          url: "components/blocks/Event/session/yashraj_apply.js",
+        },
+        ShashankDetails: {
+          name: "ShashankDetails",
+          component: ShashankDetails,
+          url: "components/blocks/Event/session/shashank_details.js",
+        },
+        YashrajDeatails: {
+          name: "YashrajDeatails",
+          component: YashrajDeatails,
+          url: "components/blocks/Event/session/yashraj_details.js",
+        },
+        SecondFeb: {
+          name: "SecondFeb",
+          component: SecondFeb,
+          url: "components/blocks/Event/contest/2ndFeb.js",
         },
       }
     },

@@ -27,7 +27,7 @@ export default ({
     },
     {
      quote:
-        "👩🏼‍💻We will be sharing resources everyday in form of pdf in the WhatsApp group and we also have something interesting coming up for you ,stay tuned for further updates!🌟💫"
+        "👩🏼‍💻We will be sharing resources everyday in form of pdf and we also have something interesting coming up for you ,stay tuned for further updates!🌟💫"
     }
   ],
   testimonials1 = [
@@ -57,6 +57,20 @@ export default ({
                 <QuoteIcon />
                 <Quote>
                   {testimonial.quote}
+                </Quote>
+              </QuoteContainer>
+            </Testimonial>
+          ))}
+        <Heading>Prizes</Heading>
+          {testimonials1.map((testimonial1, index) => (
+            <Testimonial key={index}>
+              <QuoteContainer>
+                <QuoteIcon />
+                <Quote>
+                  {testimonial1.quote}
+                  The winners of this event will earn recognition via our social media channels and special perks are-
+                  <ul>1. Participation certificates to all participants</ul>
+                  <ul>2. Achievement certificates to top 3 contest winners!</ul>
                 </Quote>
               </QuoteContainer>
             </Testimonial>

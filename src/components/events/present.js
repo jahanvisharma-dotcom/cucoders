@@ -41,12 +41,12 @@ export default () => {
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      category: "Quiz Contest",
-      title: "Welcome to CU-Coders",
+        "https://images.unsplash.com/photo-1611589763733-06723d888080?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      category: "Learning Series",
+      title: "Competitive Programing in 7 days",
       description:
-        "Quiz to test your basics in programming languages like C/C++,Java , Python, JavaScript and to boost your programming skills. Each week, Quiz on a particular programming language will be made available to you three different days..",
-      url: '/coming'
+        "Starting from Basic Intro to Programming to Advanced topics of Data Structures and Algorithms, we're going to cover it all! We will be sharing resources everyday in form of pdf and we also have something interesting coming up for you ,stay tuned for further updates!",
+      url: 'Details'
     },
     /*{
       imageSrc:
@@ -76,7 +76,7 @@ export default () => {
                 <Category>{post.category}</Category>
                 <Title>{post.title}</Title>
                 <Description>{post.description}</Description>
-                <Link href={post.url}>Register</Link>
+                <Link href={post.url}>See More</Link>
               </Card>
             </Column>
           ))}

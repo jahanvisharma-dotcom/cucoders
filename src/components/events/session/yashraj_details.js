@@ -23,11 +23,11 @@ export default ({
   testimonials = [
     {
      quote:
-        "✨Starting from Basic Intro to Programming to Advanced topics of Data Structures and Algorithms, we're going to cover it all!✨"
+        "Yashraj Kakkad is an incoming Summer Analyst at Goldman Sachs. He is rated 5-stars on CodeChef and Expert on CodeForces. He is a third-year undergrad at Ahmedabad University."
     },
     {
      quote:
-        "👩🏼‍💻We will be sharing resources everyday in form of pdf in the WhatsApp group and we also have something interesting coming up for you ,stay tuned for further updates!🌟💫"
+        "Yashraj will take a session on Dynamic Programming and also gonna answer all the queries rised by you."
     }
   ],
   testimonials1 = [

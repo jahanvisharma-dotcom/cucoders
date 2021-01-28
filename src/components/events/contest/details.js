@@ -23,11 +23,11 @@ export default ({
   testimonials = [
     {
      quote:
-        "✨Starting from Basic Intro to Programming to Advanced topics of Data Structures and Algorithms, we're going to cover it all!✨"
+        "✨Have you ever thought to get started with programming contests but can't decide the right  time to begin?🧐✨"
     },
     {
      quote:
-        "👩🏼‍💻We will be sharing resources everyday in form of pdf in the WhatsApp group and we also have something interesting coming up for you ,stay tuned for further updates!🌟💫"
+        "Do you want to get placed in high paying companies like Facebook, Amazon, Apple, Netflix and Google❓ -Do you also want to be among the top programmers who could write efficient and optimized code❓👨‍💻"
     }
   ],
   testimonials1 = [
@@ -57,6 +57,20 @@ export default ({
                 <QuoteIcon />
                 <Quote>
                   {testimonial.quote}
+                </Quote>
+              </QuoteContainer>
+            </Testimonial>
+          ))}
+        <Heading>Prizes</Heading>
+          {testimonials1.map((testimonial1, index) => (
+            <Testimonial key={index}>
+              <QuoteContainer>
+                <QuoteIcon />
+                <Quote>
+                  {testimonial1.quote}
+                  The winners of this event will earn recognition via our social media channels and special perks are-
+                  <ul>1. Participation certificates to all participants</ul>
+                  <ul>2. Achievement certificates to top 3 contest winners!</ul>
                 </Quote>
               </QuoteContainer>
             </Testimonial>

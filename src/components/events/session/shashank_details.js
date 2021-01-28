@@ -23,11 +23,11 @@ export default ({
   testimonials = [
     {
      quote:
-        "✨Starting from Basic Intro to Programming to Advanced topics of Data Structures and Algorithms, we're going to cover it all!✨"
+        "Shashank Mishra is a Data Engineer at Amazon. He is Ex-McKinsey & Company | Ex-Paytm ."
     },
     {
      quote:
-        "👩🏼‍💻We will be sharing resources everyday in form of pdf in the WhatsApp group and we also have something interesting coming up for you ,stay tuned for further updates!🌟💫"
+        "Shashank will take a session on How to prepare for the interviews and also gonna answer all the queries rised by you."
     }
   ],
   testimonials1 = [

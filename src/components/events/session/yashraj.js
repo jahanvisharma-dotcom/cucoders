@@ -3,11 +3,11 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
-import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
-import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
+import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../../headers/light.js";
+import ResponsiveVideoEmbed from "../../../helpers/ResponsiveVideoEmbed.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Footer from "components/footers/footers.js";
-import Details from "components/misc/details.js";
+import Details from "components/events/session/yashraj_details.js";
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none`}
   ${DesktopNavLinks} ${NavLink}, ${LogoLink} {
@@ -87,13 +87,13 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now comeup with series of Learning Series.</Notification>
+            <Notification>We have now comeup with series of Amazing Speaker from MNCs.</Notification>
             <Heading>
-              <span>CP in 7 days</span>
+              <span>Intro to CP</span>
               <br />
-              <SlantedBackground>26th Jan - 01th Feb</SlantedBackground>
+              <SlantedBackground>02nd Feb</SlantedBackground>
             </Heading>
-            <PrimaryLink href = "">Open for All</PrimaryLink>
+            <PrimaryLink href = "/yashraj_apply">Register Now</PrimaryLink>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed

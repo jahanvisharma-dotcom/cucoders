@@ -46,12 +46,30 @@ export default () => {
   const cards = [
     {
       imageSrc:
+        "https://images.unsplash.com/photo-1611859222966-17476bcc6a21?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+      subtitle: "Speaker Session",
+      title: "Intro To Placements",
+      description:
+        "Destiny is not a matter of chance; it is a matter of choice, It is not to be waiting for, it is to be achieved",
+      url: "Shashank"
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1611857633799-fd284dfb4916?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      subtitle: "Speaker Session",
+      title: "Intro To CP",
+      description:
+        "Be so much greater so that you are impossible to ignore.",
+      url: "Yashraj"
+    },
+    {
+      imageSrc:
         "https://images.unsplash.com/photo-1611589763733-06723d888080?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      subtitle: "Free",
-      title: "Competitive Programing in 7 days",
+      subtitle: "Contest",
+      title: "Intro To CP",
       description:
         "To be a programmer, you have to think like a programmer. This coding contest is based on concepts of algorithms, data structures and problem solving.",
-      url: "Details"
+      url: "CP"
     }
   ];
 
