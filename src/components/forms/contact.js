@@ -56,10 +56,10 @@ export default ({
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
             <Form action={formAction} method={formMethod}>
-              <Input type="email" name="email" placeholder="Your Email Address" />
-              <Input type="text" name="name" placeholder="Full Name" />
-              <Input type="text" name="subject" placeholder="Subject" />
-              <Textarea name="message" placeholder="Your Message Here" />
+              <Input type="email" required name="email" placeholder="Your Email Address" />
+              <Input type="text" required name="name" placeholder="Full Name" />
+              <Input type="text" required name="subject" placeholder="Subject" />
+              <Textarea name="message" required placeholder="Your Message Here" />
               <SubmitButton type="submit">{submitButtonText}</SubmitButton>
             </Form>
           </TextContent>
