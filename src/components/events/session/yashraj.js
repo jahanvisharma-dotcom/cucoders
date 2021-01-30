@@ -89,11 +89,11 @@ export default () => {
           <LeftColumn>
             <Notification>We have now comeup with series of Amazing Speaker from MNCs.</Notification>
             <Heading>
-              <span>Intro to CP</span>
+              <span>Intro To Dynamic Programming</span>
               <br />
               <SlantedBackground>02nd Feb</SlantedBackground>
             </Heading>
-            <PrimaryLink href = "/yashraj_apply">Register Now</PrimaryLink>
+            <PrimaryLink href = "/ashraj_apply">Register Now</PrimaryLink>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
