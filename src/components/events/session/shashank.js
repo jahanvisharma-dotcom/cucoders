@@ -89,7 +89,7 @@ export default () => {
           <LeftColumn>
             <Notification>We have now comeup with series of Amazing Speaker from MNCs.</Notification>
             <Heading>
-              <span>Intro to Placements</span>
+              <span>Preparations & Mistakes in Placements</span>
               <br />
               <SlantedBackground>01st Feb</SlantedBackground>
             </Heading>
