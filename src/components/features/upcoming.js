@@ -46,18 +46,18 @@ export default () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1611859222966-17476bcc6a21?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611996474445-56558c30e3bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       subtitle: "Speaker Session",
-      title: "Intro To Placements",
+      title: "Preparations & Mistakes in Placements",
       description:
         "Destiny is not a matter of chance; it is a matter of choice, It is not to be waiting for, it is to be achieved",
       url: "Shashank"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1611857633799-fd284dfb4916?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "ahttps://images.unsplash.com/photo-1611996430260-9c7d638fd4c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       subtitle: "Speaker Session",
-      title: "Intro To CP",
+      title: "Intro To Dynamic Programming",
       description:
         "Be so much greater so that you are impossible to ignore.",
       url: "Yashraj"
