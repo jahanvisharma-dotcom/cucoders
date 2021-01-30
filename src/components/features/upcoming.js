@@ -55,7 +55,7 @@ export default () => {
     },
     {
       imageSrc:
-        "ahttps://images.unsplash.com/photo-1611996430260-9c7d638fd4c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611996430260-9c7d638fd4c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       subtitle: "Speaker Session",
       title: "Intro To Dynamic Programming",
       description:
