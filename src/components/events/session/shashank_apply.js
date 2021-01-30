@@ -54,7 +54,7 @@ export default () => {
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="branch-input">Your Branch*</Label>
-                    <Input id="branch-input" type="text" name="resume" required placeholder="E.g. CSE, ECE" />
+                    <Input id="branch-input" type="text" name="branch" required placeholder="E.g. CSE, ECE" />
                   </InputContainer>
                   <InputContainer tw="flex-1">
                     <Label htmlFor="name-input">Any suggestions?</Label>
