@@ -93,7 +93,7 @@ export default () => {
               <br />
               <SlantedBackground>02nd Feb</SlantedBackground>
             </Heading>
-            <PrimaryLink> <a href="#">Registeration soon</a></PrimaryLink>
+            <PrimaryLink> <a href="https://www.codechef.com/CP7D2021">Register Now</a></PrimaryLink>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
