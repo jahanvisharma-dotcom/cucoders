@@ -27,7 +27,7 @@ export default ({
     },
     {
      quote:
-        "Yashraj will take a session on Dynamic Programming and also gonna answer all the queries rised by you."
+        "Yashraj will take a session on Dynamic Programming and also gonna answer all the queries raised by you."
     }
   ],
   testimonials1 = [
