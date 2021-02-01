@@ -57,6 +57,15 @@ export default ({
   const blogPosts = [
    {
       imageSrc:
+        "https://images.unsplash.com/photo-1611996474445-56558c30e3bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      author: "Shashank Mishra",
+      category: "Speaker Session",
+      title: "01st February, 2021",
+      description: "To further give info about placement and common mistakes by you, A session was organised with Shashank Mishra, Data Engineer at Amazon.🌟",
+      url: "https://meet.google.com/tuj-miee-yuw"
+  },
+  {
+      imageSrc:
         "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80",
       author: "Ankit Raj",
       category: "Coding Contest",
