@@ -54,6 +54,8 @@ import Detail from "components/misc/details.js";
 
 import CP from "components/events/contest/2ndfeb.js";
 
+import Error from "components/hero/error.js";
+
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
@@ -155,8 +157,14 @@ export default function App() {
         <Route path="/cp">
           <CP />
         </Route>
-        <Route path="/">
+        <Route path="/home">
           <Home />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/">
+          <Error />
         </Route>
       </Switch>
     </Router>
