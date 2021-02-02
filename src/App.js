@@ -52,11 +52,6 @@ import Register from "components/events/apply.js";
 import Details from "components/events/cp.js";
 import Detail from "components/misc/details.js";
 
-
-import Yashraj from "components/events/session/yashraj.js";
-import YashrajApply from "components/events/session/yashraj_apply.js";
-import YashrajThanks from "components/events/session/yashraj_thanks.js";
-
 import CP from "components/events/contest/2ndfeb.js";
 
 export default function App() {
@@ -156,15 +151,6 @@ export default function App() {
         </Route>
         <Route path="/about">
           <About />
-        </Route>
-        <Route path="/yashraj_apply">
-          <YashrajApply />
-        </Route>
-        <Route path="/yashrajthanks">
-          <YashrajThanks />
-        </Route>
-        <Route path="/yashraj">
-          <Yashraj />
         </Route>
         <Route path="/cp">
           <CP />
