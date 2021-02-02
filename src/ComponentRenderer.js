@@ -47,10 +47,6 @@ import Applytester from "components/job/openings/tester/apply.js";
 import ApplyUi from "components/job/openings/uiux/apply.js";
 
 
-import Yashraj from "components/events/session/yashraj.js";
-import YashrajApply from "components/events/session/yashraj_apply.js";
-import YashrajDeatails from "components/events/session/yashraj_details.js";
-
 import SecondFeb from "components/events/contest/2ndfeb.js";
 
 export const components = {
@@ -199,21 +195,6 @@ export const components = {
           name: "Simple Three Column With Image",
           component: Present,
           url: "/components/blocks/Blog/presentEvent.js",
-        },
-        Yashraj: {
-          name: "Yashraj",
-          component: Yashraj,
-          url: "components/blocks/Event/session/yashraj.js",
-        },
-        YashrajApply: {
-          name: "YashrajApply",
-          component: YashrajApply,
-          url: "components/blocks/Event/session/yashraj_apply.js",
-        },
-        YashrajDeatails: {
-          name: "YashrajDeatails",
-          component: YashrajDeatails,
-          url: "components/blocks/Event/session/yashraj_details.js",
         },
         SecondFeb: {
           name: "SecondFeb",
