@@ -71,6 +71,7 @@ export default ({
                   The winners of this event will earn recognition via our social media channels and special perks are-
                   <ul>1. Participation certificates to all participants</ul>
                   <ul>2. Achievement certificates to top 3 contest winners!</ul>
+                  <uL>3. Laddus to the top - 3(Only UMIT & CU Students)</ul>
                 </Quote>
               </QuoteContainer>
             </Testimonial>
