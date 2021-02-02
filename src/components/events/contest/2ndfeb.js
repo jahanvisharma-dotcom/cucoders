@@ -91,7 +91,7 @@ export default () => {
             <Heading>
               <span>CP in 7 days Contest</span>
               <br />
-              <SlantedBackground>02nd Feb</SlantedBackground>
+              <SlantedBackground>03rd Feb</SlantedBackground>
             </Heading>
             <PrimaryLink> <a href="https://www.codechef.com/CP7D2021">Register Now</a></PrimaryLink>
           </LeftColumn>
