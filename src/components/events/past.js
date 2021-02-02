@@ -57,6 +57,15 @@ export default ({
   const blogPosts = [
    {
       imageSrc:
+        "https://images.unsplash.com/photo-1611996430260-9c7d638fd4c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      author: "Yashraj Kakkad",
+      category: "Speaker Session",
+      title: "02n February, 2021",
+      description: "To further enhance your skills on Dynamic Programming, A session was organised with Yashraj Kakkad, incoming Summer Analyst at Goldman Sachs.🌟",
+      url: "https://meet.google.com/hvh-dmne-auv"
+  },
+  {
+      imageSrc:
         "https://images.unsplash.com/photo-1611996474445-56558c30e3bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       author: "Shashank Mishra",
       category: "Speaker Session",
