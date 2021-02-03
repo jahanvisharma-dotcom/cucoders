@@ -13,6 +13,7 @@ import Footer from "components/footers/footers.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 
+import Apply from "components/projects/applyproject.js";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -118,6 +119,7 @@ export default () => {
         </ThreeColumn>
       </Content>
     </Container>
+    <Apply />
     <Footer />
     </AnimationRevealPage>
     </>

@@ -49,6 +49,8 @@ import Projects from "components/projects/project.js";
 import Resources from "components/resources/resources.js";
 import Comingsoon from "components/resources/comingsoon.js";
 
+import ApplyProject from "components/projects/applyproject.js";
+
 export const components = {
 
   innerPages: {
@@ -119,6 +121,11 @@ export const components = {
           name: "Resources",
           component: Resources,
           url: "/components/resources/resources.js",
+        },
+        ApplyProject: {
+          name: "ApplyProject",
+          component: ApplyProject,
+          url: "/components/projects/applyproject.js",
         },
         AboutJob:{
           name: "Job",
