@@ -51,7 +51,7 @@ export default ({
     </>
   ),
   description = "“Developing a good work ethic is key. Apply yourself at whatever you do, whether you're a janitor or taking your first summer job because that work ethic will be reflected in everything you do in life.”",
-  primaryButtonText = "Learn",
+  primaryButtonText = "Learn More",
   primaryButtonUrl = "contact",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
