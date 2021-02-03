@@ -22,20 +22,21 @@ import ComponentRenderer from "ComponentRenderer.js";
 import Home from "MainLandingPage.js";
 import Blog from "components/blogs/blog.js";
 import Present from "components/events/present.js";
-import Upcoming from "components/features/upcoming.js";
+import Upcoming from "components/events/upcoming.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ComingSoon from "components/cta/comingsoon.js";
 import About from "pages/AboutUs.js";
 import Contact from "pages/ContactUs.js";
 import Team from "pages/Team.js";
 import Careers from "pages/jobHome.js";
+import Events from "components/events/event.js";
 import Past from "components/events/past.js";
 import Thanks from "components/thanks/thanks.js";
 import Member from "components/membership/member.js";
 import Privacy from "pages/PrivacyPolicy.js";
 import Terms from "pages/TermsOfService.js";
 import ThankYou from "components/membership/thanks.js";
-
+import Projects from "components/projects/project.js";
 import Registration from "components/events/quiz.js"
 import ThankYouSoMuch from "components/events/thanks.js";
 import Coming from "components/events/comingsoon.js";
@@ -48,12 +49,10 @@ import Editorial from "components/job/openings/editorialist/editorialist.js";
 import Graphic from "components/job/openings/graphic/graphic.js";
 import Motion from "components/job/openings/motion/motion.js";
 import UIUX from "components/job/openings/uiux/uiux.js";
-import Register from "components/events/apply.js";
-import Details from "components/events/cp.js";
-import Detail from "components/misc/details.js";
 
-import CP from "components/events/contest/2ndfeb.js";
 
+import Resources from "components/resources/resources.js";
+import ComingNow from "components/resources/comingsoon.js";
 import Error from "components/hero/error.js";
 
 export default function App() {
@@ -73,6 +72,9 @@ export default function App() {
         <Route path="/upcoming">
           <Upcoming />
         </Route>
+        <Route path="/events">
+          <Events />
+        </Route>
         <Route path="/present">
           <Present />
         </Route>
@@ -81,6 +83,15 @@ export default function App() {
         </Route>
         <Route path="/blog">
           <Blog />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/resources">
+          <Resources />
+        </Route>
+        <Route path="/comingnow">
+          <ComingNow />
         </Route>
         <Route path="/careers">
         <Careers />
@@ -121,15 +132,6 @@ export default function App() {
         <Route path="/uiux">
           <UIUX />
         </Route>
-        <Route path="/apply">
-          <Register />
-        </Route>
-        <Route path="/details">
-          <Details />
-        </Route>
-        <Route path="/detail">
-          <Detail />
-        </Route>
         <Route path="/thanks">
           <Thanks />
         </Route>
@@ -153,9 +155,6 @@ export default function App() {
         </Route>
         <Route path="/about">
           <About />
-        </Route>
-        <Route path="/cp">
-          <CP />
         </Route>
         <Route path="/home">
           <Home />

@@ -47,11 +47,11 @@ export default ({
   subheading = "Coming Soon",
   heading = (
     <>
-      We are <span tw="text-primary-500">creating events.</span>
+      We are <span tw="text-primary-500">creating resources.</span>
     </>
   ),
   description = "“Developing a good work ethic is key. Apply yourself at whatever you do, whether you're a janitor or taking your first summer job because that work ethic will be reflected in everything you do in life.”",
-  primaryButtonText = "Learn More",
+  primaryButtonText = "Learn",
   primaryButtonUrl = "contact",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,

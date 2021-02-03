@@ -11,7 +11,6 @@ import IllustrationAndVideoHero from "components/hero/TwoColumnWithVideo.js";
 import TwoColWithButtonFeatures from "components/features/TwoColWithButton.js";
 import Features from "components/features/features.js";
 import WithStatsAndImage2Features from "components/features/featuresWithStats.js";
-import Upcoming from "components/features/upcoming.js";
 import AboutJob from "components/features/aboutJob.js";
 
 import Company from "components/job/company.js";
@@ -32,10 +31,10 @@ import ComingSoon from "components/cta/comingsoon.js";
 
 import Footer from "components/footers/footers.js";
 
-
+import Event from "components/events/event.js";
 import Past from "components/events/past.js";
 import Present from "components/events/present.js";
-
+import Upcoming from "components/events/upcoming.js";
 import Applyback from "components/job/openings/backend/apply.js";
 import Applyeditorial from "components/job/openings/editorialist/apply.js";
 import Applyfront from "components/job/openings/frontend/apply.js";
@@ -46,8 +45,9 @@ import Applysetter from "components/job/openings/setter/apply.js";
 import Applytester from "components/job/openings/tester/apply.js";
 import ApplyUi from "components/job/openings/uiux/apply.js";
 
-
-import SecondFeb from "components/events/contest/2ndfeb.js";
+import Projects from "components/projects/project.js";
+import Resources from "components/resources/resources.js";
+import Comingsoon from "components/resources/comingsoon.js";
 
 export const components = {
 
@@ -98,7 +98,27 @@ export const components = {
         Upcoming: {
           name: "Upcoming",
           component: Upcoming,
-          url: "/components/blocks/Features/upcoming.js",
+          url: "/components/blocks/Events/upcoming.js",
+        },
+        Event: {
+          name: "Event",
+          component: Event,
+          url: "/components/events/event.js",
+        },
+        Projects: {
+          name: "Projects",
+          component: Projects,
+          url: "/components/projects/project.js",
+        },
+        Comingsoon: {
+          name: "Comingsoon",
+          component: Comingsoon,
+          url: "/components/resources/Comingsoon.js",
+        },
+        Resources: {
+          name: "Resources",
+          component: Resources,
+          url: "/components/resources/resources.js",
         },
         AboutJob:{
           name: "Job",
@@ -196,12 +216,7 @@ export const components = {
           component: Present,
           url: "/components/blocks/Blog/presentEvent.js",
         },
-        SecondFeb: {
-          name: "SecondFeb",
-          component: SecondFeb,
-          url: "components/blocks/Event/contest/2ndFeb.js",
-        },
-      }
+      },
     },
 
     Blog: {
