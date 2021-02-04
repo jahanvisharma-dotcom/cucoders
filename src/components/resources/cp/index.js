@@ -99,7 +99,7 @@ export default ({
           <Posts>
             {posts.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
-                <Post className="group" as="a" href={post.url}>
+                <Post className="group" as="a" target='_blank' href={post.url}>
                   <Image imageSrc={post.imageSrc} />
                   <Info>
                     <Category>{post.category}</Category>
