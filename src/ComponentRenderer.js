@@ -49,6 +49,16 @@ import Projects from "components/projects/project.js";
 import Resources from "components/resources/resources.js";
 import Comingsoon from "components/resources/comingsoon.js";
 
+
+
+import AIIndex from "components/resources/ai/index.js";
+import AlgoIndex from "components/resources/algorithms/index.js";
+import CPIndex from "components/resources/cp/index.js";
+import HackingIndex from "components/resources/hacking/index.js";
+import MobileIndex from "components/resources/mobile/index.js";
+import OpenIndex from "components/resources/open/index.js";
+import WebIndex from "components/resources/web/index.js";
+
 import ApplyProject from "components/projects/applyproject.js";
 
 export const components = {
@@ -131,6 +141,41 @@ export const components = {
           name: "Job",
           component: AboutJob,
           url: "components/blocks/Features/AboutJob",
+        },
+        AIIndex:{
+          name: "AIIndex",
+          component: AIIndex,
+          url: "components/blocks/resources/ai/index.js",
+        },
+        AlgoIndex:{
+          name: "AlgoIndex",
+          component: AlgoIndex,
+          url: "components/blocks/resources/algorithms/index.js",
+        },
+        CPIndex:{
+          name: "CPIndex",
+          component: CPIndex,
+          url: "components/blocks/resources/cp/index.js",
+        },
+        MobileIndex:{
+          name: "MobileIndex",
+          component: MobileIndex,
+          url: "components/blocks/resources/mobile/index.js",
+        },
+        HackingIndex:{
+          name: "HackingIndex",
+          component: HackingIndex,
+          url: "components/blocks/resources/hacking/index.js",
+        },
+        WebIndex:{
+          name: "WebIndex",
+          component: WebIndex,
+          url: "components/blocks/resources/web/index.js",
+        },
+        OpenIndex:{
+          name: "OpenIndex",
+          component: OpenIndex,
+          url: "components/blocks/resources/open/index.js",
         },
       }
     },

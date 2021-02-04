@@ -50,22 +50,12 @@ export default ({
       {
         imageSrc:
           "https://images.unsplash.com/photo-1477039181047-efb4357d01bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        title: "Algorithm",
-        content: "a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+        title: "Data Structure & Algorithm",
+        content: "A good algorithm usually comes together with a set of good data structures that allow the algorithm to manipulate the data efficiently.",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
-        url: "ComingNow"
-      },
-      {
-        imageSrc:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        title: "Data Structure",
-        content: "A data structure is a particular way of organizing data in a computer so that it can be used effectively.",
-        price: "$2.99",
-        rating: "4.8",
-        reviews: "32",
-        url: "ComingNow"
+        url: "algo"
       },
       {
         imageSrc:
@@ -75,7 +65,7 @@ export default ({
         price: "$7.99",
         rating: "4.9",
         reviews: "89",
-        url: "ComingNow"
+        url: "cp"
       },
       {
         imageSrc:
