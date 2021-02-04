@@ -59,7 +59,7 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1612286648571-5cde43a710ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       author: "CU & UMIT Chapter",
-      category: "Contes",
+      category: "Contest",
       title: "03rd February, 2021",
       description: "After a week full of learning and fun, we are back with a programming contest to *test* your learning so far 🤓,This contest is for all the programmers from beginner to a high level.",
       url: "https://www.codechef.com/CP7D2021"
