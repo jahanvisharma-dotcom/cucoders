@@ -86,7 +86,7 @@ export default ({
         },
       ],
     },
-    {
+    /*{
       imageSrc: "https://images.unsplash.com/photo-1599999384704-1d7b947bee0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=100.95&w=512&h=512&q=80",
       position: "Overall Coordinator",
       name: "Anustup Mukherjee",
@@ -181,7 +181,7 @@ export default ({
         },
       ],
     },
-    {
+    /*{
       imageSrc: "https://images.unsplash.com/photo-1600000560828-90d1d926e05a?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Management Head",
       name: "Aditya Kumar",
@@ -199,7 +199,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    },*/
     {
       imageSrc: "https://images.unsplash.com/photo-1599999750007-7fb8cc658e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Graphic Designer & Content Writer",
@@ -219,7 +219,7 @@ export default ({
         },
       ],
     },
-    {
+    /*{
       imageSrc: "https://images.unsplash.com/photo-1600000343164-b0738438ac71?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Front-End Developer",
       name: "Parul Manhas",
@@ -237,7 +237,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    },*/
     {
       imageSrc: "https://images.unsplash.com/photo-1599999962958-9380d76f9408?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Front-End Developer",
@@ -294,45 +294,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1599999282595-9ff5e92d1f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "AI/ML Developer",
-      name: "Harshdeep",
-      links: [
-        {
-          url: "https://www.instagram.com/king_of_social_media/",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/harshdeep-77/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/Harshderp",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1599999374688-e13573468639?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Content Writer & Front-End Developer",
-      name: "Satakshi Shrivastava",
-      links: [
-        {
-          url: "#",
-          icon: InstagramIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/satakshi-shrivastava-51040b1aa",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/satakshi25",
-          icon: GithubIcon,
-        },
-      ],
-    }
+    }    
   ]
 }) => {
   return (
