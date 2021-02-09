@@ -36,7 +36,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  shortcuts": [
+  "shortcuts": [
     {
       "name": "Join Us",
       "short_name": "Member",
