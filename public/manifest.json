@@ -30,7 +30,8 @@
     "type": "image/webp"
   }
 ],
-  "orientation": "portrait-primary"
+  "orientation": "portrait-primary",
+  "categories": ["contest", "education", "coding"],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
