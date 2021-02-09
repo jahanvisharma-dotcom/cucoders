@@ -35,6 +35,7 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
+  "prefer_related_applications": false,
   "background_color": "#ffffff",
   "shortcuts": [
     {
