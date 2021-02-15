@@ -47,42 +47,121 @@ const ButtonContainer = tw.div`flex justify-center`;
 const LoadMoreButton = tw(PrimaryButton)`mt-16 mx-auto`;
 
 export default ({
-  headingText = "Blog Posts",
+  headingText = "Web Resources",
   posts = [
+  {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "Eloquent Javascript",
+      url: "https://drive.google.com/file/d/1qo5DPWUXuZmp4LbMeBpTRb0vvP28PAoM/view?usp=sharing",
+      featured: false
+    },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
-      category: "Travel Tips",
-      date: "April 21, 2020",
-      title: "Safely Travel in Foreign Countries",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com",
-      featured: true
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "HTML5",
+      url: "https://drive.google.com/file/d/1IWRX4GOrx1iLcb7cUWkBwzqNcBUROBRM/view?usp=sharing",
+      featured: false
     },
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost()
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "HTML5 Canvas",
+      url: "https://drive.google.com/file/d/1fLfN1UIRQtUghChTsoXIAJq7jqW-giQD/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "CSS",
+      url: "https://drive.google.com/file/d/1mSszzmZMK-ug3XxN1SIwu3eiwC8eQxSN/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "Javascript",
+      url: "https://drive.google.com/file/d/1d6KOD7Bmw8jgHGSDpHkyfUi8ci_0WTxd/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "jQuery",
+      url: "https://drive.google.com/file/d/1IEiASc2oXLq6DZINWuf0SZkMHbt8mRqW/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "NodeJS",
+      url: "https://drive.google.com/file/d/14wjo1d8p3PSrgHL5LCIG3_vQYskCZcLt/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "ReactJS",
+      url: "https://drive.google.com/file/d/1SuS8lRtmEQt1agY5lBfCcghQ30Hv18Sy/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "AngularJS",
+      url: "https://drive.google.com/file/d/10X2QubqERoB8m8ny4-HGfITk3KxLoEuX/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "HTML & CSS",
+      url: "hhttps://drive.google.com/file/d/1ZuJLNMeqIY_vZQFF9ougD_hiL1TGeFdv/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "Javascript",
+      url: "https://drive.google.com/file/d/1QNc83CfPWfRJ8FaWwiILL1xW3Vl5X64S/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 15, 2021",
+      title: "Bootstrap",
+      url: "https://drive.google.com/file/d/1sV8m6n10nW-7194wwwjBuznjEQUNLnOe/view?usp=sharing",
+      featured: false
+    },
   ]
 }) => {
-  const [visible, setVisible] = useState(7);
+  const [visible, setVisible] = useState(9);
   const onLoadMoreClick = () => {
-    setVisible(v => v + 6);
+    setVisible(v => v + 8);
   };
   return (
     <AnimationRevealPage>
@@ -101,7 +180,7 @@ export default ({
                     <Category>{post.category}</Category>
                     <CreationDate>{post.date}</CreationDate>
                     <Title>{post.title}</Title>
-                    {post.featured && post.description && <Description>{post.description}</Description>}
+                    {post.featured || post.description || <Description>{post.description}</Description>}
                   </Info>
                 </Post>
               </PostContainer>
@@ -118,14 +197,3 @@ export default ({
     </AnimationRevealPage>
   );
 };
-
-const getPlaceholderPost = () => ({
-  imageSrc:
-    "https://images.unsplash.com/photo-1418854982207-12f710b74003?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
-  category: "Travel Guide",
-  date: "April 19, 2020",
-  title: "Visit the beautiful Alps in Switzerland",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  url: "https://reddit.com"
-});

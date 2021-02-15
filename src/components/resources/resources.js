@@ -75,7 +75,7 @@ export default ({
         price: "$8.99",
         rating: "4.6",
         reviews: "12",
-        url: "ComingNow"
+        url: "web"
       },
       {
         imageSrc:
@@ -109,9 +109,9 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1599595344070-c456bea6ee98?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        title: "Open Source",
-        content: "Open-source software development is the process by which open-source software, or similar software whose source code is publicly available.",
+          "https://images.unsplash.com/photo-1599227577308-4323e4e2c946?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        title: "Cloud",
+        content: "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.",
         price: "$3.99",
         rating: "3.9",
         reviews: "26",

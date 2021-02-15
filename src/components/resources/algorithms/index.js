@@ -58,7 +58,7 @@ export default ({
       description:
         "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
       url: "https://drive.google.com/file/d/1CKVaIn2dvPbvaPP4enkInZBuIpmm6KW7/view?usp=sharing",
-      featured: true
+      featured: false
     },
     {
       imageSrc:
@@ -67,7 +67,7 @@ export default ({
       date: "Feb 5, 2021",
       title: "DSA by Narsimha Karamuchi",
       description:
-        "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
+        "Data Structure And Algorithmic Puzzles is a book that offers solutions to complex data structures and algorithms. There are multiple solutions for each problem and the book is coded in C/C++, it comes handy as an interview and exam guide for computer scientists",
       url: "https://drive.google.com/file/d/1VA3gEEmqmkMgmp2AYrmNRJuS8tOgsFIX/view?usp=sharing",
       featured: false
     },
@@ -78,7 +78,7 @@ export default ({
       date: "Feb 5, 2021",
       title: "Dynamic Programming for coding interviews.",
       description:
-        "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
+        "This book takes dynamic programming head-on. It first explain the concepts with simple examples and then deep dives into complex DP problems.",
       url: "https://drive.google.com/file/d/1nLCKUxeQzayofpp4Lj5ce37gg44gmCFV/view?usp=sharing",
       featured: false
     },
@@ -89,7 +89,7 @@ export default ({
       date: "Feb 5, 2021",
       title: "The Algorithm Design Manual",
       description:
-        "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
+        "The Algorithm Design Manual provides straightforward access to combinatorial algorithms technology, stressing design over analysis. The first part, Techniques, provides accessible instruction on methods for designing and analyzing computer algorithms.",
       url: "https://drive.google.com/file/d/1KRDk0F0wb4kVzFiamKBgfLfb1qkZiLeF/view?usp=sharing",
       featured: false
     }
@@ -116,7 +116,7 @@ export default ({
                     <Category>{post.category}</Category>
                     <CreationDate>{post.date}</CreationDate>
                     <Title>{post.title}</Title>
-                    {post.featured && post.description && <Description>{post.description}</Description>}
+                    {post.featured || post.description || <Description>{post.description}</Description>}
                   </Info>
                 </Post>
               </PostContainer>

@@ -56,7 +56,7 @@ export default ({
       date: "Feb 5, 2021",
       title: "Competitive Programmer’s Handbook",
       description:
-        "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
+        "Competitive Programmer's Handbook is a book whose purpose is to give the reader a thorough introduction to competitive programming.",
       url: "https://drive.google.com/file/d/17OwnI-74WkwQUE_T9BO_abxFtiClUpKr/view?usp=sharing",
       featured: false
     },
@@ -67,7 +67,7 @@ export default ({
       date: "Feb 5, 2021",
       title: "Handbook of geometry for competitive_programmers",
       description:
-        "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
+        "",
       url: "https://drive.google.com/file/d/1x81YQ8KkqHH8XvaQS5LXoMtibgAJS2W2/view?usp=sharing",
       featured: false
     },
@@ -78,7 +78,7 @@ export default ({
       date: "Feb 5, 2021",
       title: "2011 Stanford Local ACM Programming Contest",
       description:
-        "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.",
+        "",
       url: "https://drive.google.com/file/d/1BsDwJ8uLPrI1vl0HUnd4dlDGJDcQskrB/view?usp=sharing",
       featured: false
     }
@@ -105,7 +105,7 @@ export default ({
                     <Category>{post.category}</Category>
                     <CreationDate>{post.date}</CreationDate>
                     <Title>{post.title}</Title>
-                    {post.featured && post.description && <Description>{post.description}</Description>}
+                    {post.featured || post.description || <Description>{post.description}</Description>}
                   </Info>
                 </Post>
               </PostContainer>
