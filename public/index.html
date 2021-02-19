@@ -139,7 +139,7 @@ window.cookieconsent.initialise({
     #myBtn {
       display: none;
       position: fixed;
-      bottom: 45px;
+      bottom: 3vw;
       right: 30px;
       z-index: 99;
       font-size: 200px;
@@ -151,16 +151,18 @@ window.cookieconsent.initialise({
       background-color: #FF6415;
       border-radius: 50%;
       font-size: 16px;
-  }
+    }
     h1 {
-      font-size: 1.5vw;
+      font-size: 1vw;
+      font-style: italic;
+      font-family: ui-sans-serif;
     }
     #myBtn:hover {
       background-color: #15FF64;
     }
   </style>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><b><h1>☝️</h1></b></button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><b><h1>Top ☝️</h1></b></button>
   <script>
   // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
