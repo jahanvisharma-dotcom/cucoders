@@ -47,116 +47,83 @@ const ButtonContainer = tw.div`flex justify-center`;
 const LoadMoreButton = tw(PrimaryButton)`mt-16 mx-auto`;
 
 export default ({
-  headingText = "CP Resources",
+  headingText = "Programming Language Resources",
   posts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 5, 2021",
-      title: "Competitive Programmer’s Handbook",
-      description:
-        "Competitive Programmer's Handbook is a book whose purpose is to give the reader a thorough introduction to competitive programming.",
-      url: "https://drive.google.com/file/d/17OwnI-74WkwQUE_T9BO_abxFtiClUpKr/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 5, 2021",
-      title: "Handbook of geometry for competitive_programmers",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1x81YQ8KkqHH8XvaQS5LXoMtibgAJS2W2/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Question Bank",
-      date: "Feb 5, 2021",
-      title: "2011 Stanford Local ACM Programming Contest",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1BsDwJ8uLPrI1vl0HUnd4dlDGJDcQskrB/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "Coding Interview Questions By Narasimha Karumanchi",
+      title: "C Notes for Professionals",
       description:
         "",
-      url: "https://drive.google.com/file/d/1oQzg7N8k0AngFnEKKyNWgF7RzRnGuWFy/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1NRTOsqZjJwEiNZZcSFTNkC9TBHTLWg50/view?usp=sharing",
       featured: false
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Handbook",
-      date: "Feb 22, 2021",
-      title: "Competitive Programming",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1qFFA5sHO63aLOk3ovZB3xnM59VnndN3B/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "Computational Geometry",
+      title: "CPP Notes for Professionals",
       description:
         "",
-      url: "https://drive.google.com/file/d/1YGiD-IAaZpQJfoumuyQkbg0afa-f9kwH/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1GIqcRvtatmAR85RMcvCWVgJUjO3YK42f/view?usp=sharing",
       featured: false
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "CRACKING the CODING INTERVIEW",
+      title: "Bash Notes for Professionals",
       description:
         "",
-      url: "https://drive.google.com/file/d/1_sORffeUsE8jD4pzOtEmBFAB5zmLllgJ/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1283pJem2h2xAmSFO7KekkAN6LTtCyp8P/view?usp=sharing",
       featured: false
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "Data Structures (Into Java)",
+      title: "All Java Programs",
       description:
         "",
-      url: "https://drive.google.com/file/d/1ugFIX_aA1OhqvxMGfDwroHsTYtSy3YUv/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1d4QKWFsw__kwcQbjuNnaby4D2WNmaQfU/view?usp=sharing",
       featured: false
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "Dynamic Programming Questions:",
+      title: "CPP STL",
       description:
         "",
-      url: "https://drive.google.com/file/d/1ijvHxvVYAhxIvA7uv3nogAdSjSXBxYv7/view?usp=sharing",
+      url: "https://drive.google.com/file/d/187HaIEEEVmWh_EarkEKSga4fln1FNRX8/view?usp=sharing",
       featured: false
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "Elements of Programming Interview",
+      title: "Ruby Notes for Professionals",
       description:
         "",
-      url: "https://drive.google.com/file/d/19xxtxzkgeyasEtlLhjviz_tCrQekA2Kj/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1kFRey4PxGbXQCF4YevwbUF5heYhnaQif/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 22, 2021",
+      title: "OOPs Question",
+      description:
+        "",
+      url: "https://drive.google.com/file/d/1_JEoNlvCbOkeGlj5ShUdemsZaYxQKcOk/view?usp=sharing",
       featured: false
     }
   ]
@@ -176,13 +143,13 @@ export default ({
           <Posts>
             {posts.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
-                <Post className="group" as="a" target='_blank' href={post.url}>
+                <Post className="group" as="a" href={post.url}>
                   <Image imageSrc={post.imageSrc} />
                   <Info>
                     <Category>{post.category}</Category>
                     <CreationDate>{post.date}</CreationDate>
                     <Title>{post.title}</Title>
-                    {post.featured || post.description || <Description>{post.description}</Description>}
+                    {post.featured && post.description && <Description>{post.description}</Description>}
                   </Info>
                 </Post>
               </PostContainer>
@@ -199,4 +166,3 @@ export default ({
     </AnimationRevealPage>
   );
 };
-

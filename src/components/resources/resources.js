@@ -79,6 +79,16 @@ export default ({
       },
       {
         imageSrc:
+          "https://images.unsplash.com/photo-1613068687893-5e85b4638b56?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        title: "Programming Language",
+        content: "A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers.",
+        price: "$7.99",
+        rating: "4.2",
+        reviews: "19",
+        url: "language"
+      },
+      {
+        imageSrc:
           "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
         title: "AI & ML",
         content: "I refers to the concept of machines mimicking human cognition. To reference artificial intelligence is to allude to machines performing tasks that only seemed plausible with human thinking and logic.",
@@ -90,12 +100,12 @@ export default ({
       {
         imageSrc:
           "https://images.unsplash.com/photo-1514168757508-07ffe9ae125b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGV0aGljYWwlMjBoYWNraW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        title: "Ethical Hacking",
-        content: "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data.",
+        title: "Security",
+        content: "Computer security, cybersecurity or information technology security is the protection of computer systems and networks from information disclosure, theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.",
         price: "$2.99",
         rating: "5.0",
         reviews: "61",
-        url: "ComingNow"
+        url: "security"
       },
       {
         imageSrc:
