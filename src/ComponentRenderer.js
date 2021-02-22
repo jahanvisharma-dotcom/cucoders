@@ -58,6 +58,7 @@ import HackingIndex from "components/resources/hacking/index.js";
 import MobileIndex from "components/resources/mobile/index.js";
 import OpenIndex from "components/resources/open/index.js";
 import WebIndex from "components/resources/web/index.js";
+import LanguageIndex from "components/resources/language/index.js";
 
 import ApplyProject from "components/projects/applyproject.js";
 
@@ -166,6 +167,11 @@ export const components = {
           name: "HackingIndex",
           component: HackingIndex,
           url: "components/blocks/resources/hacking/index.js",
+        },
+        LanguageIndex:{
+          name: "LanguageIndex",
+          component: LanguageIndex,
+          url: "components/blocks/resources/language/index.js",
         },
         WebIndex:{
           name: "WebIndex",

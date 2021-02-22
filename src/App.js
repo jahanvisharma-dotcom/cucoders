@@ -60,10 +60,11 @@ import Error from "components/hero/error.js";
 import Algo from "components/resources/algorithms/index.js";
 import AI from "components/resources/ai/index.js";
 import CP from "components/resources/cp/index.js";
-import Hacking from "components/resources/hacking/index.js";
+import Security from "components/resources/hacking/index.js";
 import Mobile from "components/resources/mobile/index.js";
 import Open from "components/resources/open/index.js";
 import Web from "components/resources/web/index.js";
+import Language from "components/resources/language/index.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -181,8 +182,11 @@ export default function App() {
         <Route exact path="/cp">
           <CP />
         </Route>
-        <Route exact path="/hacking">
-          <Hacking />
+        <Route exact path="/Security">
+          <Security />
+        </Route>
+        <Route exact path="/Language">
+          <Language />
         </Route>
         <Route exact path="/mobile">
           <Mobile />
