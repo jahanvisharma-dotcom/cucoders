@@ -2,7 +2,6 @@ import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
-
 /*
  * This is the entry point component of this project. You can change the below exported default App component to any of
  * the prebuilt landing page components by uncommenting their import and export lines respectively.
@@ -65,6 +64,8 @@ import Mobile from "components/resources/mobile/index.js";
 import Open from "components/resources/open/index.js";
 import Web from "components/resources/web/index.js";
 import Language from "components/resources/language/index.js";
+import Database from "components/resources/database/index.js";
+import VersionControl from "components/resources/version_control/index.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -74,100 +75,100 @@ export default function App() {
         <Route path="/components/:type/:subtype/:name">
           <ComponentRenderer />
         </Route>
-        <Route path="/components/:type/:name">
+        <Route exact path="/components/:type/:name">
           <ComponentRenderer />
         </Route>
-        <Route path="/team">
+        <Route exact path="/team">
           <Team />
         </Route>
-        <Route path="/upcoming">
+        <Route exact path="/upcoming">
           <Upcoming />
         </Route>
-        <Route path="/events">
+        <Route exact path="/events">
           <Events />
         </Route>
-        <Route path="/present">
+        <Route exact path="/present">
           <Present />
         </Route>
-        <Route path="/past">
+        <Route exact path="/past">
           <Past />
         </Route>
-        <Route path="/blog">
+        <Route exact path="/blog">
           <Blog />
         </Route>
-        <Route path="/projects">
+        <Route exact path="/projects">
           <Projects />
         </Route>
         <Route path="/resources">
           <Resources />
         </Route>
-        <Route path="/comingnow">
+        <Route exact path="/comingnow">
           <ComingNow />
         </Route>
-        <Route path="/careers">
+        <Route exact path="/careers">
         <Careers />
         </Route>
-        <Route path="/comingsoon">
+        <Route exact path="/comingsoon">
           <ComingSoon />
         </Route>
-        <Route path="/coming">
+        <Route exact path="/coming">
           <Coming />
         </Route>
-        <Route path="/contact">
+        <Route exact path="/contact">
           <Contact />
         </Route>
         <Route path="/backend">
           <Back />
         </Route>
-        <Route path="/frontend">
+        <Route exact path="/frontend">
           <Front />
         </Route>
-        <Route path="/fullstack">
+        <Route exact path="/fullstack">
           <Full />
         </Route>
         <Route path="/setter">
           <Setter />
         </Route>
-        <Route path="/tester">
+        <Route exact path="/tester">
           <Tester />
         </Route>
-        <Route path="/editorialist">
+        <Route exact path="/editorialist">
         <Editorial />
         </Route>
-        <Route path="/graphic">
+        <Route exact path="/graphic">
           <Graphic />
         </Route>
-        <Route path="/motion">
+        <Route exact path="/motion">
           <Motion />
         </Route>
-        <Route path="/uiux">
+        <Route exact path="/uiux">
           <UIUX />
         </Route>
-        <Route path="/thanks">
+        <Route exact path="/thanks">
           <Thanks />
         </Route>
-        <Route path="/thankyou">
+        <Route exact path="/thankyou">
           <ThankYou />
         </Route>
-        <Route path="/ThankYouSoMuch">
+        <Route exact path="/ThankYouSoMuch">
           <ThankYouSoMuch />
         </Route>
-        <Route path="/registration">
+        <Route exact path="/registration">
           <Registration />
         </Route>
-        <Route path="/privacy">
+        <Route exact path="/privacy">
           <Privacy />
         </Route>
-        <Route path="/terms">
+        <Route exact path="/terms">
           <Terms />
         </Route>
-        <Route path="/member">
+        <Route exact path="/member">
           <Member />
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/home">
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route exact path="/">
@@ -187,6 +188,12 @@ export default function App() {
         </Route>
         <Route exact path="/Language">
           <Language />
+        </Route>
+        <Route exact path="/Database">
+          <Database />
+        </Route>
+        <Route exact path="/VersionControl">
+          <VersionControl />
         </Route>
         <Route exact path="/mobile">
           <Mobile />

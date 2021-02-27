@@ -79,7 +79,7 @@ export default ({
   const defaultTestimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1574790398664-0cb03682ed1c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+        "https://source.unsplash.com/900x400/?laptop&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
         "https://images.unsplash.com/photo-1600010912624-5d5ae1de482c?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
       quote:
@@ -89,7 +89,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+        "https://source.unsplash.com/900x400/?computer&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
         "https://images.unsplash.com/photo-1600010995623-fc0e5487fa96?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:

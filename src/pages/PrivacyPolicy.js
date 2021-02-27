@@ -97,7 +97,7 @@ export default ({ headingText = "Privacy Policy" }) => {
                 <strong>Service</strong> refers to the Website.
               </li>
               <li>
-                <strong>Country</strong> refers to: Chandigarh, India
+                <strong>Country</strong> refers to: Maharashtra, India
               </li>
               <li>
                 <p>

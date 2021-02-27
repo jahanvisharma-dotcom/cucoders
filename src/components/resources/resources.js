@@ -99,6 +99,16 @@ export default ({
       },
       {
         imageSrc:
+          "https://images.unsplash.com/photo-1610924125440-db821b18a56e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        title: "Database",
+        content: "A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.",
+        price: "$2.99",
+        rating: "5.0",
+        reviews: "61",
+        url: "database"
+      },
+      {
+        imageSrc:
           "https://images.unsplash.com/photo-1514168757508-07ffe9ae125b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGV0aGljYWwlMjBoYWNraW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
         title: "Security",
         content: "Computer security, cybersecurity or information technology security is the protection of computer systems and networks from information disclosure, theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.",
@@ -106,6 +116,16 @@ export default ({
         rating: "5.0",
         reviews: "61",
         url: "security"
+      },
+      {
+        imageSrc:
+          "https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        title: "Version Control",
+        content: "In software engineering, version control is a class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a component of software configuration management.",
+        price: "$3.99",
+        rating: "4.2",
+        reviews: "95",
+        url: "versioncontrol"
       },
       {
         imageSrc:

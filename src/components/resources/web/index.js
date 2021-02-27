@@ -156,51 +156,6 @@ export default ({
       title: "Bootstrap",
       url: "https://drive.google.com/file/d/1sV8m6n10nW-7194wwwjBuznjEQUNLnOe/view?usp=sharing",
       featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "MongoDB: The Definitive Guide",
-      url: "https://drive.google.com/file/d/1EpGcddODVJYBQMlVC04c6FrrcjR0o9SO/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "MongoDB Notes for Professionals",
-      url: "https://drive.google.com/file/d/1wognTHBOwXV8hg7cn1ozI6k14yi7nehH/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "MySQL Notes for Professionals",
-      url: "https://drive.google.com/file/d/1ZwU4m0nqQhHDg2pf_qDN5PXwtMk25Wcw/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "PostgreSQL Notes for Professionals",
-      url: "https://drive.google.com/file/d/1d4BAb5uctBhy9muHMVuQLx_a8vIXTTeu/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "Notes for Professionals",
-      url: "https://drive.google.com/file/d/1LkjczKNhzxuykO78h7tZyWIY9xpYYSdy/view?usp=sharing",
-      featured: false
     }
   ]
 }) => {

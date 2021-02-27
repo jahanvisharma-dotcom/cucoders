@@ -59,6 +59,8 @@ import MobileIndex from "components/resources/mobile/index.js";
 import OpenIndex from "components/resources/open/index.js";
 import WebIndex from "components/resources/web/index.js";
 import LanguageIndex from "components/resources/language/index.js";
+import DatabaseIndex from "components/resources/database/index.js";
+import VersionControl from "components/resources/version_control/index.js";
 
 import ApplyProject from "components/projects/applyproject.js";
 
@@ -177,6 +179,16 @@ export const components = {
           name: "WebIndex",
           component: WebIndex,
           url: "components/blocks/resources/web/index.js",
+        },
+        DatabaseIndex:{
+          name: "DatabaseIndex",
+          component: DatabaseIndex,
+          url: "components/blocks/resources/database/index.js",
+        },
+        VersionControl:{
+          name: "VersionControl",
+          component: VersionControl,
+          url: "components/blocks/resources/control_version/index.js",
         },
         OpenIndex:{
           name: "OpenIndex",
