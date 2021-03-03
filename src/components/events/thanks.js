@@ -49,13 +49,13 @@ export default ({
   imageBorder = false,
   imageShadow = true,
   subheading = "We're so glad you registered for the event.",
-  heading = "Jan. 26th - 01st Feb",
-  description = "Thank you for registering for the CU-Coders event. You have registered for Competitive Programming in 7 days.",
+  heading = "March. 6th 2021",
+  description = "Thank you for registering for the event. You have registered for Quiz Eve, an event by CU Chapter & UMIT Chapter.",
   textOnLeft = false,
   testimonials = [
     {
       quote:
-        "We're also going to send you a pdf of all the resources of the learning series."
+        "We're also going to send you mail regarding each and every details of the events."
     }
   ]
 }) => {

@@ -40,7 +40,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Register Now</h2>
-            <form method="post"action="https://formbucket.com/f/buk_lu7gIWD1paWBE6QUmnQgt7zK">
+            <form method="post"action="https://formbucket.com/f/buk_FQVuzC9bJFe5ukHsUQDln7wW">
               <TwoColumn>
                 <Column>
                   <InputContainer>
@@ -53,13 +53,17 @@ export default () => {
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="branch-input">Your Branch*</Label>
-                    <Input id="branch-input" type="text" name="resume" required placeholder="E.g. CSE, ECE" />
+                    <Input id="branch-input" type="text" name="branch" required placeholder="E.g. CSE, ECE" />
                   </InputContainer>
                 </Column>
                 <Column>
                   <InputContainer>
-                    <Label htmlFor="name-input">Your UID*</Label>
+                    <Label htmlFor="uid-input">Your UID*</Label>
                     <Input id="uid-input" name="UID" required placeholder="E.g. 1XBXX1XXX"/>
+                  </InputContainer>
+                  <InputContainer>
+                    <Label htmlFor="college-input">Your College Name*</Label>
+                    <Input id="phone-input" type="text" name="college" required placeholder="E.g. Chandigarh University" />
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="tel-input">Your Phone Number*</Label>

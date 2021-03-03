@@ -48,10 +48,10 @@ export default () => {
       imageSrc:
         "https://images.unsplash.com/photo-1612286648571-5cde43a710ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       subtitle: "Contest",
-      title: "CP in 7 Days",
+      title: "Quiz Mania",
       description:
-        "To be a programmer, you have to think like a programmer. This coding contest is based on concepts of algorithms, data structures and problem solving.",
-      url: "CP"
+        "An all-new MCQ series! The test is 10-15 minutes long and aimed at beginners and is the best way to spend a Saturday afternoon! Giddy up.",
+      url: "/quiz"
     }
   ];
 

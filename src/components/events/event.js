@@ -69,7 +69,7 @@ export default ({
     {
       name: "Upcoming Events",
       description: "Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.",
-      url: "comingsoon"
+      url: "Upcoming/"
     },
     {
       name: "Ongoing Events",
