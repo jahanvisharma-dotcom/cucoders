@@ -53,6 +53,61 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
+      date: "Feb 22, 2021",
+      title: "Algorithms by S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani",
+      description:
+        "",
+      url: "https://drive.google.com/file/d/1jf54NUbbFCkmmrn4qeIkTqF3wxCsbKqR/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 22, 2021",
+      title: "Algorithms Notes for Professionals",
+      description:
+        "",
+      url: "https://drive.google.com/file/d/1s_uH-h4xqygwgiRUhhgdmSI1PDaLN9mJ/view?usp=sharing",
+      featured: false
+    },
+   	{
+      imageSrc:
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 22, 2021",
+      title: "Data Structures (Into Java)",
+      description:
+        "",
+      url: "https://drive.google.com/file/d/1ugFIX_aA1OhqvxMGfDwroHsTYtSy3YUv/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 22, 2021",
+      title: "Data Structures and Algorithm Analysis in C++",
+      description:
+        "By Mark Allen Weiss",
+      url: "https://drive.google.com/file/d/1Kgnf7ksliy94lXuV3deR5j7avWuuiSnY/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 22, 2021",
+      title: "Matters Computational Ideas, Algorithms, Source Code",
+      description:
+        "By Jorg Arndt",
+      url: "https://drive.google.com/file/d/1mMyrvApiMmjKUTZgojwgCQG1Z8du13Ft/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
       date: "Feb 5, 2021",
       title: "Introduction to Algorithms",
       description:
@@ -91,50 +146,6 @@ export default ({
       description:
         "The Algorithm Design Manual provides straightforward access to combinatorial algorithms technology, stressing design over analysis. The first part, Techniques, provides accessible instruction on methods for designing and analyzing computer algorithms.",
       url: "https://drive.google.com/file/d/1KRDk0F0wb4kVzFiamKBgfLfb1qkZiLeF/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "Algorithms by S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1jf54NUbbFCkmmrn4qeIkTqF3wxCsbKqR/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "Algorithms Notes for Professionals",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1s_uH-h4xqygwgiRUhhgdmSI1PDaLN9mJ/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "Data Structures and Algorithm Analysis in C++",
-      description:
-        "By Mark Allen Weiss",
-      url: "https://drive.google.com/file/d/1Kgnf7ksliy94lXuV3deR5j7avWuuiSnY/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
-      title: "Matters Computational Ideas, Algorithms, Source Code",
-      description:
-        "By Jorg Arndt",
-      url: "https://drive.google.com/file/d/1mMyrvApiMmjKUTZgojwgCQG1Z8du13Ft/view?usp=sharing",
       featured: false
     }
   ]

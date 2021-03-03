@@ -53,39 +53,6 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
-      date: "Feb 5, 2021",
-      title: "Competitive Programmer’s Handbook",
-      description:
-        "Competitive Programmer's Handbook is a book whose purpose is to give the reader a thorough introduction to competitive programming.",
-      url: "https://drive.google.com/file/d/17OwnI-74WkwQUE_T9BO_abxFtiClUpKr/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 5, 2021",
-      title: "Handbook of geometry for competitive_programmers",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1x81YQ8KkqHH8XvaQS5LXoMtibgAJS2W2/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Question Bank",
-      date: "Feb 5, 2021",
-      title: "2011 Stanford Local ACM Programming Contest",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1BsDwJ8uLPrI1vl0HUnd4dlDGJDcQskrB/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
       date: "Feb 22, 2021",
       title: "Coding Interview Questions By Narasimha Karumanchi",
       description:
@@ -146,6 +113,39 @@ export default ({
       description:
         "",
       url: "https://drive.google.com/file/d/19xxtxzkgeyasEtlLhjviz_tCrQekA2Kj/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 5, 2021",
+      title: "Competitive Programmer’s Handbook",
+      description:
+        "Competitive Programmer's Handbook is a book whose purpose is to give the reader a thorough introduction to competitive programming.",
+      url: "https://drive.google.com/file/d/17OwnI-74WkwQUE_T9BO_abxFtiClUpKr/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+      category: "Book",
+      date: "Feb 5, 2021",
+      title: "Handbook of geometry for competitive_programmers",
+      description:
+        "",
+      url: "https://drive.google.com/file/d/1x81YQ8KkqHH8XvaQS5LXoMtibgAJS2W2/view?usp=sharing",
+      featured: false
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
+      category: "Question Bank",
+      date: "Feb 5, 2021",
+      title: "2011 Stanford Local ACM Programming Contest",
+      description:
+        "",
+      url: "https://drive.google.com/file/d/1BsDwJ8uLPrI1vl0HUnd4dlDGJDcQskrB/view?usp=sharing",
       featured: false
     }
   ]
