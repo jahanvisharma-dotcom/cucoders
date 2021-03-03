@@ -48,8 +48,7 @@ import ApplyUi from "components/job/openings/uiux/apply.js";
 import Projects from "components/projects/project.js";
 import Resources from "components/resources/resources.js";
 import Comingsoon from "components/resources/comingsoon.js";
-
-
+import Quiz from "components/events/quiz/quiz.js";
 
 import AIIndex from "components/resources/ai/index.js";
 import AlgoIndex from "components/resources/algorithms/index.js";
@@ -119,6 +118,11 @@ export const components = {
           name: "Event",
           component: Event,
           url: "/components/events/event.js",
+        },
+        Quiz: {
+          name: "Quiz",
+          component: Quiz,
+          url: "/components/quiz/quiz.js",
         },
         Projects: {
           name: "Projects",

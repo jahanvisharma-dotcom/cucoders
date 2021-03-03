@@ -37,6 +37,7 @@ import Terms from "pages/TermsOfService.js";
 import ThankYou from "components/membership/thanks.js";
 import Projects from "components/projects/project.js";
 import Registration from "components/events/quiz.js"
+import Quiz from "components/events/quiz/quiz.js";
 import ThankYouSoMuch from "components/events/thanks.js";
 import Coming from "components/events/comingsoon.js";
 import Back from "components/job/openings/backend/backend.js";
@@ -92,6 +93,9 @@ export default function App() {
         </Route>
         <Route exact path="/past">
           <Past />
+        </Route>
+        <Route exact path="/quiz">
+          <Quiz />
         </Route>
         <Route exact path="/blog">
           <Blog />
