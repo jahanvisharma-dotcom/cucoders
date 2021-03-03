@@ -131,17 +131,6 @@ export default ({
         "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
       category: "Book",
       date: "Feb 22, 2021",
-      title: "Data Structures (Into Java)",
-      description:
-        "",
-      url: "https://drive.google.com/file/d/1ugFIX_aA1OhqvxMGfDwroHsTYtSy3YUv/view?usp=sharing",
-      featured: false
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1024&q=80",
-      category: "Book",
-      date: "Feb 22, 2021",
       title: "Dynamic Programming Questions:",
       description:
         "",
