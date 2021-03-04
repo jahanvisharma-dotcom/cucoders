@@ -24,7 +24,7 @@ export default ({
   testimonials = [
     {
      quote:
-        "An all-new MCQ series! The test is 10-15 minutes long and aimed at beginners and is the best way to spend a Saturday afternoon! Giddy up."
+        "An all-new MCQ series! The test is 10-15 minutes long and aimed at beginners and is the best way to spend a Saturday Evening! Hurry up."
     }
   ],
   testimonials1 = [
