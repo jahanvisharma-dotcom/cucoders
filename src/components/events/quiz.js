@@ -58,8 +58,8 @@ export default () => {
                 </Column>
                 <Column>
                   <InputContainer>
-                    <Label htmlFor="uid-input">Your UID*</Label>
-                    <Input id="uid-input" name="UID" required placeholder="E.g. 1XBXX1XXX"/>
+                    <Label htmlFor="uid-input">Your UID(Only for CUians)</Label>
+                    <Input id="uid-input" name="UID" placeholder="E.g. 1XBXX1XXX"/>
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="college-input">Your College Name*</Label>
