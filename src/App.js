@@ -36,7 +36,6 @@ import Privacy from "pages/PrivacyPolicy.js";
 import Terms from "pages/TermsOfService.js";
 import ThankYou from "components/membership/thanks.js";
 import Projects from "components/projects/project.js";
-import Registration from "components/events/quiz.js"
 import Quiz from "components/events/quiz/quiz.js";
 import ThankYouSoMuch from "components/events/thanks.js";
 import Coming from "components/events/comingsoon.js";
@@ -156,9 +155,6 @@ export default function App() {
         </Route>
         <Route exact path="/ThankYouSoMuch">
           <ThankYouSoMuch />
-        </Route>
-        <Route exact path="/registration">
-          <Registration />
         </Route>
         <Route exact path="/privacy">
           <Privacy />
