@@ -27,7 +27,7 @@ export default () => {
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the desgin space."
+        heading="We aim to disrupt the design space."
         buttonRounded={false}
         description = "Our vision is to give opportunity to new developers to the real life game changer world!!"
         primaryButtonText="Contact Us"
