@@ -54,7 +54,7 @@ import Resources from "components/resources/resources.js";
 import ComingNow from "components/resources/comingsoon.js";
 import Error from "components/hero/error.js";
 
-
+import QuizRegister from "components/events/quiz.js";
 
 import Algo from "components/resources/algorithms/index.js";
 import AI from "components/resources/ai/index.js";
@@ -95,6 +95,9 @@ export default function App() {
         </Route>
         <Route exact path="/quiz">
           <Quiz />
+        </Route>
+        <Route exact path="/quizregister">
+          <QuizRegister />
         </Route>
         <Route exact path="/blog">
           <Blog />
