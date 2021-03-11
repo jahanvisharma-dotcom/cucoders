@@ -49,7 +49,7 @@ export default ({
   imageBorder = false,
   imageShadow = true,
   subheading = "We're so glad you registered for the event.",
-  heading = "March. 6th 2021",
+  heading = "March. 13th 2021",
   description = "Thank you for registering for the event. You have registered for Quiz Eve, an event by CU Chapter & UMIT Chapter.",
   textOnLeft = false,
   testimonials = [
