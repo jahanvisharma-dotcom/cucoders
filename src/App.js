@@ -95,9 +95,6 @@ export default function App() {
         <Route exact path="/quiz">
           <Quiz />
         </Route>
-        <Route exact path="/quizregister">
-          <QuizRegister />
-        </Route>
         <Route exact path="/blog">
           <Blog />
         </Route>
