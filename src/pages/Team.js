@@ -219,7 +219,7 @@ export default ({
         },
       ],
     },
-    /*{
+    {
       imageSrc: "https://images.unsplash.com/photo-1600000343164-b0738438ac71?ixlib=rb-1.2.1&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Front-End Developer",
       name: "Parul Manhas",
@@ -237,7 +237,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },*/
+    },
     {
       imageSrc: "https://images.unsplash.com/photo-1599999962958-9380d76f9408?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Front-End Developer",
