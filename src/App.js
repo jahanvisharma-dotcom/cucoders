@@ -67,7 +67,6 @@ import Language from "components/resources/language/index.js";
 import Database from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
-import Feedback from "components/survey/event.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
