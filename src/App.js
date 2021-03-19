@@ -54,6 +54,7 @@ import Resources from "components/resources/resources.js";
 import ComingNow from "components/resources/comingsoon.js";
 import Error from "components/hero/error.js";
 
+import QuizRegister from "components/events/quiz.js";
 
 import Algo from "components/resources/algorithms/index.js";
 import AI from "components/resources/ai/index.js";
@@ -65,6 +66,8 @@ import Web from "components/resources/web/index.js";
 import Language from "components/resources/language/index.js";
 import Database from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
+
+import Feedback from "components/survey/event.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -94,6 +97,9 @@ export default function App() {
         </Route>
         <Route exact path="/quiz">
           <Quiz />
+        </Route>
+        <Route exact path="/quizregister">
+          <QuizRegister />
         </Route>
         <Route exact path="/blog">
           <Blog />
@@ -172,6 +178,9 @@ export default function App() {
         </Route>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/feedback">
+          <Feedback />
         </Route>
         <Route exact path="/algo">
           <Algo />
