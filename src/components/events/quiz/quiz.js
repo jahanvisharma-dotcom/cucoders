@@ -95,7 +95,7 @@ export default () => {
               <br />
               <SlantedBackground>Every Saturday</SlantedBackground>
             </Heading>
-            <Link href="/">Registration Closed</Link>
+            <Link href="/quizregister">Register Now</Link>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
