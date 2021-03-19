@@ -178,9 +178,6 @@ export default function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/feedback">
-          <Feedback />
-        </Route>
         <Route exact path="/algo">
           <Algo />
         </Route>
