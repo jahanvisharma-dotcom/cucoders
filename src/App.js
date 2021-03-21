@@ -67,6 +67,10 @@ import Language from "components/resources/language/index.js";
 import Database from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
+
+import Bad_feedback from "components/feedback/bad_feedback.js";
+import Good_feedback from "components/feedback/good_feedback.js";
+
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
@@ -95,9 +99,6 @@ export default function App() {
         </Route>
         <Route exact path="/quiz">
           <Quiz />
-        </Route>
-        <Route exact path="/quizregister">
-          <QuizRegister />
         </Route>
         <Route exact path="/blog">
           <Blog />
@@ -206,6 +207,12 @@ export default function App() {
         </Route>
         <Route exact path="/web">
           <Web />
+        </Route>
+        <Route exact path="/good_feedback">
+          <Good_feedback />
+        </Route>
+        <Route exact path="/bad_feedback">
+          <Bad_feedback />
         </Route>
         <Route path="/">
           <Error />

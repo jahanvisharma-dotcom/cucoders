@@ -61,6 +61,10 @@ import LanguageIndex from "components/resources/language/index.js";
 import DatabaseIndex from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
+
+import Good_feedback from "components/feedback/good_feedback.js";
+import Bad_feedback from "components/feedback/bad_feedback.js";
+
 import ApplyProject from "components/projects/applyproject.js";
 
 export const components = {
@@ -198,6 +202,16 @@ export const components = {
           name: "OpenIndex",
           component: OpenIndex,
           url: "components/blocks/resources/open/index.js",
+        },
+        Good_feedback:{
+          name: "Good_feedback",
+          component: Good_feedback,
+          url: "components/blocks/feedback/good_feedback.js",
+        },
+        Bad_feedback:{
+          name: "Bad_feedback",
+          component: Bad_feedback,
+          url: "components/blocks/feedback/bad_feedback.js",
         },
       }
     },

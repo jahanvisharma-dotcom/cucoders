@@ -35,7 +35,7 @@ const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 
 const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-gray-800 opacity-50`
 export default ({
   subheading = "Goals are dreams with deadlines.",
-  text = "You're little late for this round of the Quiz Night. Come again for the another round. We'll love to have you in the next Quiz.",
+  text = "You're little late for this round of the Quiz Eve. Come again for the another round. We'll love to have you in the next Quiz.",
   link1Text = "Home",
   link1Url = "/",
   link2Text = "Events",
