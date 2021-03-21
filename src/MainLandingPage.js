@@ -68,7 +68,7 @@ export default () => {
           {
             imageSrc: shopIconImageSrc,
             title: "Mission",
-            description: "Our mission is to select best coders/developers and give them further oppurtuinity!!"
+            description: "Our mission is to select the best coders/developers and give them further opportunity!!"
           },
           {
             imageSrc: chefIconImageSrc,
