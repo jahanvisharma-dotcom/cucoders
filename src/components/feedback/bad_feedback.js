@@ -77,7 +77,7 @@ export default () => {
                   </InputContainer>
                 </Column>
               </TwoColumn>
-              <SubmitButton type="submit" value="Submit">Register</SubmitButton>
+              <SubmitButton type="submit" value="Submit">Submit</SubmitButton>
             </form>
           </div>
           <SvgDotPattern1 />
