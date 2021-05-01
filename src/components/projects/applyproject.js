@@ -3,6 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import {ReactComponent as SvgDotPatternIcon} from "../../images/dot-pattern.svg"
+import { openPopupWidget  } from "react-calendly";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -41,7 +42,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Want help with your project</h2>
-            <form action="https://submit-form.com/viFg1i5r">
+            <form action="https://submit-form.com/qmM2jB4R">
               <TwoColumn>
                 <Column>
                   <InputContainer>
@@ -60,9 +61,9 @@ export default () => {
                   </InputContainer>
                 </Column>
               </TwoColumn>
-
               <SubmitButton type="submit" value="Submit">Submit</SubmitButton>
             </form>
+            <openPopupWidget  url="https://calendly.com/cuchapter" />
           </div>
           <SvgDotPattern1 />
         </FormContainer>
