@@ -2,6 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
+import { InlineWidget } from "react-calendly";
 
 import {ReactComponent as SvgDotPatternIcon} from "../../images/dot-pattern.svg"
 import Footer from "components/footers/footers.js";
@@ -46,8 +47,9 @@ export default () => {
     </Container>
     <div>
     <div id="schedule_form">
-    <div className="calendly-inline-widget" data-url="https://calendly.com/cuchapter" 
-    style={{ minWidth: '320px', height: '580px' }} />
+    <div className="App">
+      <InlineWidget url="https://calendly.com/your_scheduling_page" />
+    </div>
     </div>
     </div>
     <Footer />
