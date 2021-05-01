@@ -46,7 +46,8 @@ export default () => {
     </Container>
     <div>
     <div id="schedule_form">
-    <div className="calendly-inline-widget" data-url="https://calendly.com/cuchapter" style={{ minWidth: '320px', height: '580px' }} />
+    <div className="calendly-inline-widget" data-url="https://calendly.com/cuchapter" 
+    style={{ minWidth: '320px', height: '580px' }} />
     </div>
     </div>
     <Footer />
