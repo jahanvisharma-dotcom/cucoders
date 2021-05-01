@@ -48,7 +48,19 @@ export default () => {
     <div>
     <div id="schedule_form">
     <div className="App">
-      <InlineWidget url="https://calendly.com/cuchapter" />
+    <InlineWidget
+	  pageSettings={{
+	    backgroundColor: 'ffffff',
+	    hideEventTypeDetails: false,
+	    hideLandingPageDetails: false,
+	    primaryColor: '000000',
+	    textColor: '000000'
+	  }}
+	  styles={{
+	    height: '1000px'
+	  }}
+ 		url="https://calendly.com/cuchapter"
+	/>
     </div>
     </div>
     </div>
