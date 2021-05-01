@@ -67,9 +67,10 @@ import Language from "components/resources/language/index.js";
 import Database from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
-
+import Calender from "components/projects/calendly.js";
 import Bad_feedback from "components/feedback/bad_feedback.js";
 import Good_feedback from "components/feedback/good_feedback.js";
+
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -156,6 +157,9 @@ export default function App() {
         </Route>
         <Route exact path="/thankyou">
           <ThankYou />
+        </Route>
+        <Route exact path="/calender">
+          <Calender />
         </Route>
         <Route exact path="/ThankYouSoMuch">
           <ThankYouSoMuch />
