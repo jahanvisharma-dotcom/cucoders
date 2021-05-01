@@ -48,7 +48,7 @@ export default () => {
     <div>
     <div id="schedule_form">
     <div className="App">
-      <InlineWidget url="https://calendly.com/your_scheduling_page" />
+      <InlineWidget url="https://calendly.com/cuchapter" />
     </div>
     </div>
     </div>
