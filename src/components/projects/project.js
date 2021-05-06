@@ -8,7 +8,6 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
 
-
 import Footer from "components/footers/footers.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";

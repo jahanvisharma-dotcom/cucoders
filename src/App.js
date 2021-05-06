@@ -19,7 +19,6 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import ComponentRenderer from "ComponentRenderer.js";
 import Home from "MainLandingPage.js";
-import Blog from "components/blogs/blog.js";
 import Present from "components/events/present.js";
 import Upcoming from "components/events/upcoming.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -34,7 +33,6 @@ import Thanks from "components/thanks/thanks.js";
 import Member from "components/membership/member.js";
 import Privacy from "pages/PrivacyPolicy.js";
 import Terms from "pages/TermsOfService.js";
-import ThankYou from "components/membership/thanks.js";
 import Projects from "components/projects/project.js";
 import Quiz from "components/events/quiz/quiz.js";
 import ThankYouSoMuch from "components/events/thanks.js";
@@ -54,7 +52,6 @@ import Resources from "components/resources/resources.js";
 import ComingNow from "components/resources/comingsoon.js";
 import Error from "components/hero/error.js";
 
-import QuizRegister from "components/events/quiz.js";
 
 import Algo from "components/resources/algorithms/index.js";
 import AI from "components/resources/ai/index.js";
@@ -67,9 +64,7 @@ import Language from "components/resources/language/index.js";
 import Database from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
-
-import Bad_feedback from "components/feedback/bad_feedback.js";
-import Good_feedback from "components/feedback/good_feedback.js";
+import Calender from "components/projects/calendly.js";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -99,9 +94,6 @@ export default function App() {
         </Route>
         <Route exact path="/quiz">
           <Quiz />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
         </Route>
         <Route exact path="/projects">
           <Projects />
@@ -154,8 +146,8 @@ export default function App() {
         <Route exact path="/thanks">
           <Thanks />
         </Route>
-        <Route exact path="/thankyou">
-          <ThankYou />
+        <Route exact path="/calender">
+          <Calender />
         </Route>
         <Route exact path="/ThankYouSoMuch">
           <ThankYouSoMuch />
@@ -207,12 +199,6 @@ export default function App() {
         </Route>
         <Route exact path="/web">
           <Web />
-        </Route>
-        <Route exact path="/good_feedback">
-          <Good_feedback />
-        </Route>
-        <Route exact path="/bad_feedback">
-          <Bad_feedback />
         </Route>
         <Route path="/">
           <Error />

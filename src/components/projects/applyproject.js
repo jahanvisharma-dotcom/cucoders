@@ -23,7 +23,6 @@ const FormContainer = styled.div`
     }
   }
 `;
-
 const TwoColumn = tw.div`flex flex-col sm:flex-row justify-between`;
 const Column = tw.div`sm:w-5/12 flex flex-col`;
 const InputContainer = tw.div`relative py-5 mt-6`;
@@ -34,14 +33,17 @@ const SubmitButton = tw.button`w-full sm:w-32 mt-6 py-3 bg-gray-100 text-primary
 
 const SvgDotPattern1 = tw(SvgDotPatternIcon)`absolute bottom-0 right-0 transform translate-y-1/2 translate-x-1/2 -z-10 opacity-50 text-primary-500 fill-current w-24`
 
-export default () => {
+export default ({
+  formAction = process.env.REACT_APP_PROJECT,
+  formMethod = "post",
+}) => {
   return (
     <Container>
       <Content>
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Want help with your project</h2>
-            <form action="https://submit-form.com/viFg1i5r">
+            <form action={formAction} method={formMethod} enctype="multipart/form-data">
               <TwoColumn>
                 <Column>
                   <InputContainer>
@@ -60,8 +62,8 @@ export default () => {
                   </InputContainer>
                 </Column>
               </TwoColumn>
-
-              <SubmitButton type="submit" value="Submit">Submit</SubmitButton>
+              <input type="hidden" name="_redirect" value="https://cuchapter.tech/calender"/>
+              <SubmitButton type="submit" value="Submit">Submit</SubmitButton>              
             </form>
           </div>
           <SvgDotPattern1 />

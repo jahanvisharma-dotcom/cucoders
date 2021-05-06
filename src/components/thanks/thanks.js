@@ -55,7 +55,7 @@ export default ({
   testimonials = [
     {
       quote:
-        "Thanks for taking out the time to apply for this at CU-Coders. You can now sit back and relax, our team has started working on your application. We will get back to you with an update in the next 7 days. In the meantime if you have any questions please feel free to reach out to us at contact@cucoders.tech. Once again, we are delighted to receive your application."
+        "Thanks for taking out the time to apply for this at CU-Coders. You can now sit back and relax, our team has started working on your application. We will get back to you with an update in the next 7 days. In the meantime if you have any questions please feel free to reach out to us at contact@cuchapter.tech. Once again, we are delighted to receive your application."
     }
   ]
 }) => {

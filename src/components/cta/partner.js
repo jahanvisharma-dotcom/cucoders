@@ -46,7 +46,7 @@ export default ({
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
-        url: "#"
+        url: "https://www.linkedin.com/company/dot-questionmark?originalSubdomain=in"
       },
       {
         imageSrc:
@@ -56,7 +56,7 @@ export default ({
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
-        url: "#"
+        url: "https://www.givemycertificate.com/"
       },
       {
         imageSrc:
@@ -66,7 +66,7 @@ export default ({
         price: "$8.99",
         rating: "4.6",
         reviews: "12",
-        url: "#"
+        url: "https://www.linkedin.com/company/dot-questionmark?originalSubdomain=in"
       },
       {
         imageSrc:
@@ -76,7 +76,7 @@ export default ({
         price: "$7.99",
         rating: "4.2",
         reviews: "19",
-        url: "#"
+        url: "https://www.instagram.com/codechef_umit_chapter/"
       },
       {
         imageSrc:
@@ -86,7 +86,7 @@ export default ({
         price: "$2.99",
         rating: "5.0",
         reviews: "61",
-        url: "#"
+        url: "https://www.jetbrains.com/"
       },
       {
         imageSrc:
@@ -96,7 +96,7 @@ export default ({
         price: "$3.99",
         rating: "4.2",
         reviews: "95",
-        url: "#"
+        url: "https://wwww.github.com"
       }
     ],
   }

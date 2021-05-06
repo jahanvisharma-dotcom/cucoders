@@ -38,7 +38,7 @@ export default ({
   heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
   description = "We’re here to help and answer any question you might have. We look forward to hearing from you 🙂",
   submitButtonText = "Send",
-  formAction = "https://www.flexyform.com/f/f782f80218d6a07565f2b0e4e2d18bb35d201010",
+  formAction = process.env.REACT_APP_C_FORM,
   formMethod = "post",
   textOnLeft = true,
 }) => {

@@ -19,8 +19,6 @@ import JobSwitcher2 from "components/job/jobSwitcher-2.js";
 import JobSwitcher3 from "components/job/jobSwitcher-3.js";
 import ComingJob from "components/job/comingsoon.js";
 
-import Blog from "components/blogs/blog.js";
-
 import testimonials from "components/testimonials/testimonials.js";
 import Partner from "components/cta/partner.js";
 import FAQs from "components/faqs/faq.js";
@@ -62,8 +60,6 @@ import DatabaseIndex from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
 
-import Good_feedback from "components/feedback/good_feedback.js";
-import Bad_feedback from "components/feedback/bad_feedback.js";
 
 import ApplyProject from "components/projects/applyproject.js";
 
@@ -203,16 +199,6 @@ export const components = {
           component: OpenIndex,
           url: "components/blocks/resources/open/index.js",
         },
-        Good_feedback:{
-          name: "Good_feedback",
-          component: Good_feedback,
-          url: "components/blocks/feedback/good_feedback.js",
-        },
-        Bad_feedback:{
-          name: "Bad_feedback",
-          component: Bad_feedback,
-          url: "components/blocks/feedback/bad_feedback.js",
-        },
       }
     },
     job: {
@@ -308,15 +294,6 @@ export const components = {
     },
 
     Blog: {
-      type: "Blog Section",
-      elements: {
-        Blog: {
-          name: "Grid With Featured Post",
-          component: Blog,
-          url: "/components/blocks/Blog/blog",
-        },
-    },
-
     Testimonial: {
       type: "Testimonial Section",
       elements: {

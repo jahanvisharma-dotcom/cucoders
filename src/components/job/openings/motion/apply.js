@@ -33,7 +33,7 @@ const TextArea = tw.textarea`h-24 sm:h-full resize-none`;
 const SubmitButton = tw.button`w-full sm:w-32 mt-6 py-3 bg-gray-100 text-primary-500 rounded-full font-bold tracking-wide shadow-lg uppercase text-sm transition duration-300 transform focus:outline-none focus:shadow-outline hover:bg-gray-300 hover:text-primary-700 hocus:-translate-y-px hocus:shadow-xl`;
 
 const SvgDotPattern1 = tw(SvgDotPatternIcon)`absolute bottom-0 right-0 transform translate-y-1/2 translate-x-1/2 -z-10 opacity-50 text-primary-500 fill-current w-24`
-
+const formAction = process.env.REACT_APP_JOB;
 export default () => {
   return (
     <Container>
@@ -41,7 +41,7 @@ export default () => {
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
             <h2>Apply Now</h2>
-             <form action="https://getform.io/f/6c3fbc07-97d9-46bc-b9c6-7e5308b9c75a" method="POST" enctype="multipart/form-data">
+             <form action={formAction} method="POST" enctype="multipart/form-data">
               <TwoColumn>
                 <Column>
                   <InputContainer>
