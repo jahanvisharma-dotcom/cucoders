@@ -60,7 +60,7 @@ export default ({
     },
     {
       question: "Where can I reach you for support ?",
-      answer: "You can contact us on our offical e-mail ID - 'admin@cucoders.tech' or on our Instagram account."
+      answer: "You can contact us on our offical e-mail ID - 'admin@cuchapter.tech' or on our Instagram account."
     }
   ]
 }) => {

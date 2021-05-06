@@ -21,6 +21,11 @@
       "purpose": "maskable any"
     }
   ],
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.android.chrome",
+  }],
+  "prefer_related_applications": true,
   "screenshots" : [
   {
     "src": "screenshot1.webp",
@@ -44,7 +49,11 @@
     {
       "name": "Join Us",
       "short_name": "Member",
+<<<<<<< HEAD
       "url": "https://cuchapter.tech/member",
+=======
+      "url": "https://home.cuchapter.tech/member",
+>>>>>>> 21bdd65d90091f6b79ad3a47bce4a57e60fa5863
       "icons": [
         { "src": "/assets/1.png", "sizes": "192x192", "type": "image/png" }
       ]
@@ -52,7 +61,11 @@
     {
       "name": "Career",
       "short_name": "career",
+<<<<<<< HEAD
       "url": "https://cuchapter.tech/careers",
+=======
+      "url": "https://home.cuchapter.tech/careers",
+>>>>>>> 21bdd65d90091f6b79ad3a47bce4a57e60fa5863
       "icons": [
         { "src": "/assets/2.png", "sizes": "192x192", "type": "image/png" }
       ]
@@ -60,7 +73,11 @@
     {
       "name": "Events",
       "short_name": "events",
+<<<<<<< HEAD
       "url": "https://cuchapter.tech/events",
+=======
+      "url": "https://home.cuchapter.tech/events",
+>>>>>>> 21bdd65d90091f6b79ad3a47bce4a57e60fa5863
       "icons": [
         { "src": "/assets/3.png", "sizes": "192x192", "type": "image/png" }
       ]
@@ -68,7 +85,11 @@
     {
       "name": "Resources",
       "short_name": "resources",
+<<<<<<< HEAD
       "url": "https://cuchapter.tech/resources",
+=======
+      "url": "https://home.cuchapter.tech/resources",
+>>>>>>> 21bdd65d90091f6b79ad3a47bce4a57e60fa5863
       "icons": [
         { "src": "/assets/4.png", "sizes": "192x192", "type": "image/png" }
       ]

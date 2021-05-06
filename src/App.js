@@ -65,6 +65,12 @@ import Database from "components/resources/database/index.js";
 import VersionControl from "components/resources/version_control/index.js";
 
 import Calender from "components/projects/calendly.js";
+<<<<<<< HEAD
+=======
+import Bad_feedback from "components/feedback/bad_feedback.js";
+import Good_feedback from "components/feedback/good_feedback.js";
+
+>>>>>>> 21bdd65d90091f6b79ad3a47bce4a57e60fa5863
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -95,6 +101,12 @@ export default function App() {
         <Route exact path="/quiz">
           <Quiz />
         </Route>
+<<<<<<< HEAD
+=======
+        <Route exact path="/blog">
+          <Blog />
+        </Route>
+>>>>>>> 21bdd65d90091f6b79ad3a47bce4a57e60fa5863
         <Route exact path="/projects">
           <Projects />
         </Route>
@@ -149,6 +161,9 @@ export default function App() {
         <Route exact path="/calender">
           <Calender />
         </Route>
+        <Route exact path="/calender">
+          <Calender />
+        </Route>
         <Route exact path="/ThankYouSoMuch">
           <ThankYouSoMuch />
         </Route>
@@ -199,6 +214,12 @@ export default function App() {
         </Route>
         <Route exact path="/web">
           <Web />
+        </Route>
+        <Route exact path="/good_feedback">
+          <Good_feedback />
+        </Route>
+        <Route exact path="/bad_feedback">
+          <Bad_feedback />
         </Route>
         <Route path="/">
           <Error />
