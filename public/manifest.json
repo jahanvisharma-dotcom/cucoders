@@ -21,6 +21,11 @@
       "purpose": "maskable any"
     }
   ],
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.android.chrome",
+  }],
+  "prefer_related_applications": true,
   "screenshots" : [
   {
     "src": "screenshot1.webp",
