@@ -91,13 +91,13 @@ export default ({ headingText = "Privacy Policy" }) => {
                 Service.
               </li>
               <li>
-                <strong>Website</strong> refers to CU-Coders, accessible from https://cucoders.tech
+                <strong>Website</strong> refers to CU-Coders, accessible from http://cuchapter.tech/
               </li>{" "}
               <li>
                 <strong>Service</strong> refers to the Website.
               </li>
               <li>
-                <strong>Country</strong> refers to: Maharashtra, India
+                <strong>Country</strong> refers to: Chandigarh, India
               </li>
               <li>
                 <p>
