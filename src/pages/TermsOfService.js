@@ -88,7 +88,7 @@ export default ({ headingText = "Terms And Condition" }) => {
                 available by the Service.
               </li>
               <li>
-                <strong>Website</strong> refers to CU-Coders, accessible from https://cucoders.tech
+                <strong>Website</strong> refers to CU-Coders, accessible from http://cuchapter.tech/
               </li>
               <li>
                 <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal
