@@ -263,7 +263,7 @@ export default ({ headingText = "Terms And Condition" }) => {
             <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
 
             <ul>
-              <li>By email: contact@cucoders.tech</li>
+              <li>By email: contact@cuchapter.tech</li>
               <li>By phone number: +91-82649-62862</li>
             </ul>
           </Text>
