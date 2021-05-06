@@ -57,6 +57,42 @@ export default ({
   const blogPosts = [
   {
       imageSrc:
+        "https://images.unsplash.com/photo-1620297907912-5175a9a9ccec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      author: "CU, SNU, IIST, DMCE, SCIT, SIT Chapter",
+      category: "Contest",
+      title: "10-11th April, 2021",
+      description: "A 24 Hours Coding Contest Consist Of Problems From Data Structures And Algorithms.",
+      url: "https://www.codechef.com/RTR2021?itm_campaign=contest_listing"
+  },
+  {
+      imageSrc:
+        "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      author: "CU & UMIT Chapter",
+      category: "Quiz",
+      title: "20th March, 2021",
+      description: "The test is 10-15 minutes long and aimed at beginners and is the best way to spend a Saturday Evening!.",
+      url: "https://quizizz.com/admin/quiz/60559464d6284e001de5a866"
+  },
+  {
+      imageSrc:
+        "https://images.unsplash.com/photo-1606326608690-4e0281b1e588?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      author: "CU & UMIT Chapter",
+      category: "Quiz",
+      title: "13th March, 2021",
+      description: "The test is 10-15 minutes long and aimed at beginners and is the best way to spend a Saturday Evening!.",
+      url: "https://quizizz.com/admin/quiz/604c888a3e134e001b0dd581"
+  },
+  {
+      imageSrc:
+        "https://images.unsplash.com/photo-1564207550505-5135c0fe4e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      author: "CU & UMIT Chapter",
+      category: "Quiz",
+      title: "06th March, 2021",
+      description: "The test is 10-15 minutes long and aimed at beginners and is the best way to spend a Saturday Evening!.",
+      url: "https://quizizz.com/admin/quiz/60433eb6ee4035001d364321"
+  },
+  {
+      imageSrc:
         "https://images.unsplash.com/photo-1612286648571-5cde43a710ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       author: "CU & UMIT Chapter",
       category: "Contest",
@@ -84,7 +120,7 @@ export default ({
   },
   {
       imageSrc:
-        "https://images.unsplash.com/photo-1611996474445-56558c30e3bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1620297862868-41c020dd8a7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       author: "Shashank Mishra",
       category: "Speaker Session",
       title: "01st February, 2021",
