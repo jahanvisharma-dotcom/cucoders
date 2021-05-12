@@ -59,7 +59,7 @@ export default () => {
 	  styles={{
 	    height: '1000px'
 	  }}
- 		url="https://calendly.com/cuchapter"
+ 		url="https://booking.setmore.com/scheduleappointment/9d4c4983-434e-42da-8072-dfd291ac4b1e"
 	/>
     </div>
     </div>
