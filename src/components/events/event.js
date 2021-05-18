@@ -90,7 +90,6 @@ export default ({
     <AnimationRevealPage>
     <Header />
     <Container>
-      <ContentWithPaddingXl>
         <HeaderContainer>
           {subheading && <Subheading>{subheading}</Subheading>}
           <Heading>{heading}</Heading>
@@ -114,7 +113,6 @@ export default ({
             </Plan>
           ))}
         </PlansContainer>
-      </ContentWithPaddingXl>
       <WhiteBackgroundOverlay />
     </Container>
     <Footer />
