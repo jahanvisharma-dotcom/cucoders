@@ -113,7 +113,6 @@ export default ({
             </Plan>
           ))}
         </PlansContainer>
-      <WhiteBackgroundOverlay />
     </Container>
     <Footer />
     </AnimationRevealPage>
