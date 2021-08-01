@@ -68,7 +68,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1627754932721-621be9bc19c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1627760676118-c7e1e9ef23ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80",
       position: "President",
       name: "Jahanvi Sharma",
       links: [
@@ -123,7 +123,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },*/
+    },
     {
       imageSrc: "https://images.unsplash.com/photo-1606413095041-78b5cadfc86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facepad=100.95&w=512&q=80",
       position: "Event Lead",
@@ -142,7 +142,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },    
+    },*/    
     {
       imageSrc: "https://images.unsplash.com/photo-1603970277321-b29de3895149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facepad=100.95&w=512&q=80",
       position: "Outreach & Media Lead",
@@ -199,7 +199,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },*/
+    },
     {
       imageSrc: "https://images.unsplash.com/photo-1599999750007-7fb8cc658e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
       position: "Graphic Designer & Content Writer",
@@ -275,7 +275,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    }    
+    }  */  
   ]
 }) => {
   return (
